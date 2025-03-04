@@ -1,4 +1,4 @@
-from models.foster import FOSTER
+from models.CIACB import FOSTER
 from models.rmm import RMM_FOSTER
 def get_model(model_name, args):
     name = model_name.lower()
