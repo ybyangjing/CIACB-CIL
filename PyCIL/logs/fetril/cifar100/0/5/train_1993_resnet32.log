@@ -1,0 +1,1431 @@
+2025-02-11 22:41:08,254 [trainer.py] => config: ./exps/fetril2.json
+2025-02-11 22:41:08,257 [trainer.py] => prefix: train
+2025-02-11 22:41:08,257 [trainer.py] => dataset: cifar100
+2025-02-11 22:41:08,258 [trainer.py] => memory_size: 2000
+2025-02-11 22:41:08,258 [trainer.py] => shuffle: True
+2025-02-11 22:41:08,258 [trainer.py] => init_cls: 5
+2025-02-11 22:41:08,259 [trainer.py] => increment: 5
+2025-02-11 22:41:08,259 [trainer.py] => model_name: fetril
+2025-02-11 22:41:08,259 [trainer.py] => convnet_type: resnet32
+2025-02-11 22:41:08,260 [trainer.py] => device: [device(type='cuda', index=0)]
+2025-02-11 22:41:08,260 [trainer.py] => seed: 1993
+2025-02-11 22:41:08,260 [trainer.py] => init_epochs: 200
+2025-02-11 22:41:08,261 [trainer.py] => init_lr: 0.1
+2025-02-11 22:41:08,261 [trainer.py] => init_weight_decay: 0.0005
+2025-02-11 22:41:08,261 [trainer.py] => epochs: 50
+2025-02-11 22:41:08,261 [trainer.py] => lr: 0.1
+2025-02-11 22:41:08,262 [trainer.py] => batch_size: 128
+2025-02-11 22:41:08,262 [trainer.py] => weight_decay: 0.0007
+2025-02-11 22:41:08,262 [trainer.py] => num_workers: 8
+2025-02-11 22:41:08,263 [trainer.py] => T: 2
+2025-02-11 22:41:10,217 [data_manager.py] => [68, 56, 78, 8, 23, 84, 90, 65, 74, 76, 40, 89, 3, 92, 55, 9, 26, 80, 43, 38, 58, 70, 77, 1, 85, 19, 17, 50, 28, 53, 13, 81, 45, 82, 6, 59, 83, 16, 15, 44, 91, 41, 72, 60, 79, 52, 20, 10, 31, 54, 37, 95, 14, 71, 96, 98, 97, 2, 64, 66, 42, 22, 35, 86, 24, 34, 87, 21, 99, 0, 88, 27, 18, 94, 11, 12, 47, 25, 30, 46, 62, 69, 36, 61, 7, 63, 75, 5, 32, 4, 51, 48, 73, 93, 39, 67, 29, 49, 57, 33]
+2025-02-11 22:41:18,323 [trainer.py] => All params: 464154
+2025-02-11 22:41:18,324 [trainer.py] => Trainable params: 464154
+2025-02-11 22:41:18,328 [fetril.py] => Learning on 0-5
+2025-02-11 22:41:18,328 [fetril.py] => All params: 464479
+2025-02-11 22:41:18,330 [fetril.py] => Trainable params: 464479
+2025-02-11 22:41:21,640 [fetril.py] => Task 0, Epoch 1/200 => Loss 2.804, Train_accy 21.08, Test_accy 21.80
+2025-02-11 22:41:22,362 [fetril.py] => Task 0, Epoch 2/200 => Loss 1.658, Train_accy 24.16
+2025-02-11 22:41:23,098 [fetril.py] => Task 0, Epoch 3/200 => Loss 1.598, Train_accy 26.04
+2025-02-11 22:41:23,840 [fetril.py] => Task 0, Epoch 4/200 => Loss 1.541, Train_accy 29.48
+2025-02-11 22:41:24,566 [fetril.py] => Task 0, Epoch 5/200 => Loss 1.484, Train_accy 34.60
+2025-02-11 22:41:25,624 [fetril.py] => Task 0, Epoch 6/200 => Loss 1.466, Train_accy 38.52, Test_accy 49.80
+2025-02-11 22:41:26,374 [fetril.py] => Task 0, Epoch 7/200 => Loss 1.454, Train_accy 38.68
+2025-02-11 22:41:27,104 [fetril.py] => Task 0, Epoch 8/200 => Loss 1.433, Train_accy 38.96
+2025-02-11 22:41:27,859 [fetril.py] => Task 0, Epoch 9/200 => Loss 1.402, Train_accy 41.16
+2025-02-11 22:41:28,603 [fetril.py] => Task 0, Epoch 10/200 => Loss 1.382, Train_accy 41.16
+2025-02-11 22:41:29,654 [fetril.py] => Task 0, Epoch 11/200 => Loss 1.347, Train_accy 43.56, Test_accy 46.00
+2025-02-11 22:41:30,376 [fetril.py] => Task 0, Epoch 12/200 => Loss 1.324, Train_accy 45.72
+2025-02-11 22:41:31,126 [fetril.py] => Task 0, Epoch 13/200 => Loss 1.286, Train_accy 46.36
+2025-02-11 22:41:31,849 [fetril.py] => Task 0, Epoch 14/200 => Loss 1.240, Train_accy 49.16
+2025-02-11 22:41:32,582 [fetril.py] => Task 0, Epoch 15/200 => Loss 1.196, Train_accy 50.80
+2025-02-11 22:41:33,648 [fetril.py] => Task 0, Epoch 16/200 => Loss 1.191, Train_accy 50.28, Test_accy 63.40
+2025-02-11 22:41:34,383 [fetril.py] => Task 0, Epoch 17/200 => Loss 1.151, Train_accy 52.48
+2025-02-11 22:41:35,090 [fetril.py] => Task 0, Epoch 18/200 => Loss 1.094, Train_accy 54.48
+2025-02-11 22:41:35,837 [fetril.py] => Task 0, Epoch 19/200 => Loss 1.058, Train_accy 56.80
+2025-02-11 22:41:36,573 [fetril.py] => Task 0, Epoch 20/200 => Loss 1.020, Train_accy 58.24
+2025-02-11 22:41:37,635 [fetril.py] => Task 0, Epoch 21/200 => Loss 1.048, Train_accy 58.40, Test_accy 75.80
+2025-02-11 22:41:38,352 [fetril.py] => Task 0, Epoch 22/200 => Loss 0.974, Train_accy 60.84
+2025-02-11 22:41:39,092 [fetril.py] => Task 0, Epoch 23/200 => Loss 1.005, Train_accy 60.36
+2025-02-11 22:41:39,851 [fetril.py] => Task 0, Epoch 24/200 => Loss 0.972, Train_accy 60.72
+2025-02-11 22:41:40,594 [fetril.py] => Task 0, Epoch 25/200 => Loss 0.916, Train_accy 64.76
+2025-02-11 22:41:41,633 [fetril.py] => Task 0, Epoch 26/200 => Loss 0.916, Train_accy 63.96, Test_accy 75.60
+2025-02-11 22:41:42,390 [fetril.py] => Task 0, Epoch 27/200 => Loss 0.845, Train_accy 66.76
+2025-02-11 22:41:43,127 [fetril.py] => Task 0, Epoch 28/200 => Loss 0.887, Train_accy 65.00
+2025-02-11 22:41:43,854 [fetril.py] => Task 0, Epoch 29/200 => Loss 0.823, Train_accy 66.92
+2025-02-11 22:41:44,597 [fetril.py] => Task 0, Epoch 30/200 => Loss 0.815, Train_accy 67.72
+2025-02-11 22:41:45,665 [fetril.py] => Task 0, Epoch 31/200 => Loss 0.803, Train_accy 69.68, Test_accy 84.40
+2025-02-11 22:41:46,416 [fetril.py] => Task 0, Epoch 32/200 => Loss 0.735, Train_accy 71.92
+2025-02-11 22:41:47,140 [fetril.py] => Task 0, Epoch 33/200 => Loss 0.780, Train_accy 70.04
+2025-02-11 22:41:47,867 [fetril.py] => Task 0, Epoch 34/200 => Loss 0.733, Train_accy 71.72
+2025-02-11 22:41:48,595 [fetril.py] => Task 0, Epoch 35/200 => Loss 0.747, Train_accy 71.56
+2025-02-11 22:41:49,657 [fetril.py] => Task 0, Epoch 36/200 => Loss 0.726, Train_accy 72.76, Test_accy 82.80
+2025-02-11 22:41:50,396 [fetril.py] => Task 0, Epoch 37/200 => Loss 0.694, Train_accy 74.04
+2025-02-11 22:41:51,129 [fetril.py] => Task 0, Epoch 38/200 => Loss 0.703, Train_accy 72.76
+2025-02-11 22:41:51,854 [fetril.py] => Task 0, Epoch 39/200 => Loss 0.664, Train_accy 74.40
+2025-02-11 22:41:52,607 [fetril.py] => Task 0, Epoch 40/200 => Loss 0.664, Train_accy 75.72
+2025-02-11 22:41:53,700 [fetril.py] => Task 0, Epoch 41/200 => Loss 0.674, Train_accy 74.40, Test_accy 85.20
+2025-02-11 22:41:54,437 [fetril.py] => Task 0, Epoch 42/200 => Loss 0.647, Train_accy 75.40
+2025-02-11 22:41:55,167 [fetril.py] => Task 0, Epoch 43/200 => Loss 0.651, Train_accy 76.12
+2025-02-11 22:41:55,922 [fetril.py] => Task 0, Epoch 44/200 => Loss 0.640, Train_accy 76.08
+2025-02-11 22:41:56,668 [fetril.py] => Task 0, Epoch 45/200 => Loss 0.625, Train_accy 77.12
+2025-02-11 22:41:57,743 [fetril.py] => Task 0, Epoch 46/200 => Loss 0.621, Train_accy 76.92, Test_accy 86.80
+2025-02-11 22:41:58,465 [fetril.py] => Task 0, Epoch 47/200 => Loss 0.580, Train_accy 77.40
+2025-02-11 22:41:59,209 [fetril.py] => Task 0, Epoch 48/200 => Loss 0.593, Train_accy 76.16
+2025-02-11 22:41:59,952 [fetril.py] => Task 0, Epoch 49/200 => Loss 0.561, Train_accy 79.32
+2025-02-11 22:42:00,683 [fetril.py] => Task 0, Epoch 50/200 => Loss 0.542, Train_accy 79.12
+2025-02-11 22:42:01,729 [fetril.py] => Task 0, Epoch 51/200 => Loss 0.576, Train_accy 78.64, Test_accy 89.00
+2025-02-11 22:42:02,503 [fetril.py] => Task 0, Epoch 52/200 => Loss 0.537, Train_accy 80.32
+2025-02-11 22:42:03,232 [fetril.py] => Task 0, Epoch 53/200 => Loss 0.538, Train_accy 80.52
+2025-02-11 22:42:03,981 [fetril.py] => Task 0, Epoch 54/200 => Loss 0.536, Train_accy 79.08
+2025-02-11 22:42:04,730 [fetril.py] => Task 0, Epoch 55/200 => Loss 0.541, Train_accy 79.32
+2025-02-11 22:42:05,796 [fetril.py] => Task 0, Epoch 56/200 => Loss 0.464, Train_accy 82.72, Test_accy 94.20
+2025-02-11 22:42:06,533 [fetril.py] => Task 0, Epoch 57/200 => Loss 0.534, Train_accy 80.20
+2025-02-11 22:42:07,258 [fetril.py] => Task 0, Epoch 58/200 => Loss 0.496, Train_accy 81.72
+2025-02-11 22:42:08,004 [fetril.py] => Task 0, Epoch 59/200 => Loss 0.478, Train_accy 82.44
+2025-02-11 22:42:08,720 [fetril.py] => Task 0, Epoch 60/200 => Loss 0.475, Train_accy 83.20
+2025-02-11 22:42:09,770 [fetril.py] => Task 0, Epoch 61/200 => Loss 0.485, Train_accy 82.56, Test_accy 90.60
+2025-02-11 22:42:10,509 [fetril.py] => Task 0, Epoch 62/200 => Loss 0.462, Train_accy 83.20
+2025-02-11 22:42:11,247 [fetril.py] => Task 0, Epoch 63/200 => Loss 0.435, Train_accy 83.76
+2025-02-11 22:42:11,978 [fetril.py] => Task 0, Epoch 64/200 => Loss 0.438, Train_accy 84.52
+2025-02-11 22:42:12,711 [fetril.py] => Task 0, Epoch 65/200 => Loss 0.433, Train_accy 83.92
+2025-02-11 22:42:13,774 [fetril.py] => Task 0, Epoch 66/200 => Loss 0.416, Train_accy 84.52, Test_accy 90.20
+2025-02-11 22:42:14,534 [fetril.py] => Task 0, Epoch 67/200 => Loss 0.419, Train_accy 84.84
+2025-02-11 22:42:15,261 [fetril.py] => Task 0, Epoch 68/200 => Loss 0.420, Train_accy 83.76
+2025-02-11 22:42:16,039 [fetril.py] => Task 0, Epoch 69/200 => Loss 0.401, Train_accy 85.44
+2025-02-11 22:42:16,772 [fetril.py] => Task 0, Epoch 70/200 => Loss 0.423, Train_accy 84.04
+2025-02-11 22:42:17,839 [fetril.py] => Task 0, Epoch 71/200 => Loss 0.411, Train_accy 85.36, Test_accy 93.00
+2025-02-11 22:42:18,568 [fetril.py] => Task 0, Epoch 72/200 => Loss 0.381, Train_accy 85.68
+2025-02-11 22:42:19,301 [fetril.py] => Task 0, Epoch 73/200 => Loss 0.382, Train_accy 85.56
+2025-02-11 22:42:20,049 [fetril.py] => Task 0, Epoch 74/200 => Loss 0.366, Train_accy 86.76
+2025-02-11 22:42:20,765 [fetril.py] => Task 0, Epoch 75/200 => Loss 0.379, Train_accy 85.40
+2025-02-11 22:42:21,839 [fetril.py] => Task 0, Epoch 76/200 => Loss 0.385, Train_accy 85.80, Test_accy 93.00
+2025-02-11 22:42:22,587 [fetril.py] => Task 0, Epoch 77/200 => Loss 0.356, Train_accy 86.76
+2025-02-11 22:42:23,335 [fetril.py] => Task 0, Epoch 78/200 => Loss 0.355, Train_accy 87.00
+2025-02-11 22:42:24,087 [fetril.py] => Task 0, Epoch 79/200 => Loss 0.354, Train_accy 87.04
+2025-02-11 22:42:24,824 [fetril.py] => Task 0, Epoch 80/200 => Loss 0.371, Train_accy 85.84
+2025-02-11 22:42:25,879 [fetril.py] => Task 0, Epoch 81/200 => Loss 0.350, Train_accy 87.96, Test_accy 94.80
+2025-02-11 22:42:26,623 [fetril.py] => Task 0, Epoch 82/200 => Loss 0.317, Train_accy 88.40
+2025-02-11 22:42:27,345 [fetril.py] => Task 0, Epoch 83/200 => Loss 0.350, Train_accy 87.36
+2025-02-11 22:42:28,076 [fetril.py] => Task 0, Epoch 84/200 => Loss 0.372, Train_accy 85.64
+2025-02-11 22:42:28,801 [fetril.py] => Task 0, Epoch 85/200 => Loss 0.317, Train_accy 88.32
+2025-02-11 22:42:29,836 [fetril.py] => Task 0, Epoch 86/200 => Loss 0.341, Train_accy 87.84, Test_accy 91.80
+2025-02-11 22:42:30,562 [fetril.py] => Task 0, Epoch 87/200 => Loss 0.356, Train_accy 86.52
+2025-02-11 22:42:31,296 [fetril.py] => Task 0, Epoch 88/200 => Loss 0.312, Train_accy 88.68
+2025-02-11 22:42:32,013 [fetril.py] => Task 0, Epoch 89/200 => Loss 0.312, Train_accy 88.80
+2025-02-11 22:42:32,737 [fetril.py] => Task 0, Epoch 90/200 => Loss 0.268, Train_accy 90.20
+2025-02-11 22:42:33,779 [fetril.py] => Task 0, Epoch 91/200 => Loss 0.318, Train_accy 89.00, Test_accy 97.00
+2025-02-11 22:42:34,503 [fetril.py] => Task 0, Epoch 92/200 => Loss 0.315, Train_accy 88.56
+2025-02-11 22:42:35,246 [fetril.py] => Task 0, Epoch 93/200 => Loss 0.294, Train_accy 90.00
+2025-02-11 22:42:35,976 [fetril.py] => Task 0, Epoch 94/200 => Loss 0.285, Train_accy 89.60
+2025-02-11 22:42:36,716 [fetril.py] => Task 0, Epoch 95/200 => Loss 0.278, Train_accy 89.68
+2025-02-11 22:42:37,782 [fetril.py] => Task 0, Epoch 96/200 => Loss 0.291, Train_accy 89.88, Test_accy 95.00
+2025-02-11 22:42:38,519 [fetril.py] => Task 0, Epoch 97/200 => Loss 0.287, Train_accy 90.16
+2025-02-11 22:42:39,262 [fetril.py] => Task 0, Epoch 98/200 => Loss 0.289, Train_accy 89.68
+2025-02-11 22:42:39,973 [fetril.py] => Task 0, Epoch 99/200 => Loss 0.297, Train_accy 89.20
+2025-02-11 22:42:40,707 [fetril.py] => Task 0, Epoch 100/200 => Loss 0.297, Train_accy 89.88
+2025-02-11 22:42:41,780 [fetril.py] => Task 0, Epoch 101/200 => Loss 0.281, Train_accy 89.92, Test_accy 94.20
+2025-02-11 22:42:42,530 [fetril.py] => Task 0, Epoch 102/200 => Loss 0.283, Train_accy 89.52
+2025-02-11 22:42:43,268 [fetril.py] => Task 0, Epoch 103/200 => Loss 0.269, Train_accy 90.28
+2025-02-11 22:42:44,014 [fetril.py] => Task 0, Epoch 104/200 => Loss 0.260, Train_accy 90.76
+2025-02-11 22:42:44,730 [fetril.py] => Task 0, Epoch 105/200 => Loss 0.266, Train_accy 90.08
+2025-02-11 22:42:45,789 [fetril.py] => Task 0, Epoch 106/200 => Loss 0.251, Train_accy 90.92, Test_accy 95.40
+2025-02-11 22:42:46,544 [fetril.py] => Task 0, Epoch 107/200 => Loss 0.282, Train_accy 90.16
+2025-02-11 22:42:47,267 [fetril.py] => Task 0, Epoch 108/200 => Loss 0.269, Train_accy 89.64
+2025-02-11 22:42:48,001 [fetril.py] => Task 0, Epoch 109/200 => Loss 0.263, Train_accy 90.84
+2025-02-11 22:42:48,737 [fetril.py] => Task 0, Epoch 110/200 => Loss 0.251, Train_accy 90.24
+2025-02-11 22:42:49,810 [fetril.py] => Task 0, Epoch 111/200 => Loss 0.259, Train_accy 90.48, Test_accy 96.20
+2025-02-11 22:42:50,558 [fetril.py] => Task 0, Epoch 112/200 => Loss 0.256, Train_accy 90.44
+2025-02-11 22:42:51,306 [fetril.py] => Task 0, Epoch 113/200 => Loss 0.245, Train_accy 91.60
+2025-02-11 22:42:52,036 [fetril.py] => Task 0, Epoch 114/200 => Loss 0.242, Train_accy 91.16
+2025-02-11 22:42:52,766 [fetril.py] => Task 0, Epoch 115/200 => Loss 0.233, Train_accy 91.80
+2025-02-11 22:42:53,827 [fetril.py] => Task 0, Epoch 116/200 => Loss 0.245, Train_accy 91.36, Test_accy 96.40
+2025-02-11 22:42:54,581 [fetril.py] => Task 0, Epoch 117/200 => Loss 0.231, Train_accy 91.80
+2025-02-11 22:42:55,332 [fetril.py] => Task 0, Epoch 118/200 => Loss 0.220, Train_accy 91.96
+2025-02-11 22:42:56,068 [fetril.py] => Task 0, Epoch 119/200 => Loss 0.242, Train_accy 91.00
+2025-02-11 22:42:56,797 [fetril.py] => Task 0, Epoch 120/200 => Loss 0.221, Train_accy 92.24
+2025-02-11 22:42:57,873 [fetril.py] => Task 0, Epoch 121/200 => Loss 0.243, Train_accy 91.00, Test_accy 96.40
+2025-02-11 22:42:58,636 [fetril.py] => Task 0, Epoch 122/200 => Loss 0.217, Train_accy 92.28
+2025-02-11 22:42:59,413 [fetril.py] => Task 0, Epoch 123/200 => Loss 0.207, Train_accy 92.64
+2025-02-11 22:43:00,178 [fetril.py] => Task 0, Epoch 124/200 => Loss 0.244, Train_accy 91.36
+2025-02-11 22:43:00,930 [fetril.py] => Task 0, Epoch 125/200 => Loss 0.198, Train_accy 93.48
+2025-02-11 22:43:02,017 [fetril.py] => Task 0, Epoch 126/200 => Loss 0.221, Train_accy 91.64, Test_accy 95.80
+2025-02-11 22:43:02,761 [fetril.py] => Task 0, Epoch 127/200 => Loss 0.220, Train_accy 91.72
+2025-02-11 22:43:03,492 [fetril.py] => Task 0, Epoch 128/200 => Loss 0.216, Train_accy 92.60
+2025-02-11 22:43:04,235 [fetril.py] => Task 0, Epoch 129/200 => Loss 0.214, Train_accy 92.64
+2025-02-11 22:43:04,977 [fetril.py] => Task 0, Epoch 130/200 => Loss 0.202, Train_accy 92.68
+2025-02-11 22:43:06,030 [fetril.py] => Task 0, Epoch 131/200 => Loss 0.202, Train_accy 93.16, Test_accy 98.00
+2025-02-11 22:43:06,777 [fetril.py] => Task 0, Epoch 132/200 => Loss 0.210, Train_accy 91.92
+2025-02-11 22:43:07,499 [fetril.py] => Task 0, Epoch 133/200 => Loss 0.222, Train_accy 91.92
+2025-02-11 22:43:08,252 [fetril.py] => Task 0, Epoch 134/200 => Loss 0.198, Train_accy 92.48
+2025-02-11 22:43:09,002 [fetril.py] => Task 0, Epoch 135/200 => Loss 0.191, Train_accy 93.52
+2025-02-11 22:43:10,076 [fetril.py] => Task 0, Epoch 136/200 => Loss 0.183, Train_accy 93.40, Test_accy 96.80
+2025-02-11 22:43:10,794 [fetril.py] => Task 0, Epoch 137/200 => Loss 0.194, Train_accy 93.20
+2025-02-11 22:43:11,548 [fetril.py] => Task 0, Epoch 138/200 => Loss 0.191, Train_accy 93.52
+2025-02-11 22:43:12,285 [fetril.py] => Task 0, Epoch 139/200 => Loss 0.206, Train_accy 93.12
+2025-02-11 22:43:13,016 [fetril.py] => Task 0, Epoch 140/200 => Loss 0.185, Train_accy 93.56
+2025-02-11 22:43:14,096 [fetril.py] => Task 0, Epoch 141/200 => Loss 0.175, Train_accy 93.68, Test_accy 97.00
+2025-02-11 22:43:14,845 [fetril.py] => Task 0, Epoch 142/200 => Loss 0.209, Train_accy 92.24
+2025-02-11 22:43:15,586 [fetril.py] => Task 0, Epoch 143/200 => Loss 0.173, Train_accy 94.40
+2025-02-11 22:43:16,322 [fetril.py] => Task 0, Epoch 144/200 => Loss 0.174, Train_accy 93.60
+2025-02-11 22:43:17,083 [fetril.py] => Task 0, Epoch 145/200 => Loss 0.164, Train_accy 94.08
+2025-02-11 22:43:18,148 [fetril.py] => Task 0, Epoch 146/200 => Loss 0.178, Train_accy 93.68, Test_accy 96.60
+2025-02-11 22:43:18,890 [fetril.py] => Task 0, Epoch 147/200 => Loss 0.180, Train_accy 93.68
+2025-02-11 22:43:19,644 [fetril.py] => Task 0, Epoch 148/200 => Loss 0.165, Train_accy 93.88
+2025-02-11 22:43:20,394 [fetril.py] => Task 0, Epoch 149/200 => Loss 0.182, Train_accy 93.64
+2025-02-11 22:43:21,145 [fetril.py] => Task 0, Epoch 150/200 => Loss 0.152, Train_accy 94.56
+2025-02-11 22:43:22,215 [fetril.py] => Task 0, Epoch 151/200 => Loss 0.171, Train_accy 94.44, Test_accy 97.00
+2025-02-11 22:43:22,958 [fetril.py] => Task 0, Epoch 152/200 => Loss 0.164, Train_accy 93.88
+2025-02-11 22:43:23,711 [fetril.py] => Task 0, Epoch 153/200 => Loss 0.169, Train_accy 94.40
+2025-02-11 22:43:24,482 [fetril.py] => Task 0, Epoch 154/200 => Loss 0.154, Train_accy 94.36
+2025-02-11 22:43:25,222 [fetril.py] => Task 0, Epoch 155/200 => Loss 0.158, Train_accy 94.00
+2025-02-11 22:43:26,272 [fetril.py] => Task 0, Epoch 156/200 => Loss 0.182, Train_accy 93.68, Test_accy 98.20
+2025-02-11 22:43:27,030 [fetril.py] => Task 0, Epoch 157/200 => Loss 0.154, Train_accy 94.20
+2025-02-11 22:43:27,786 [fetril.py] => Task 0, Epoch 158/200 => Loss 0.161, Train_accy 94.40
+2025-02-11 22:43:28,519 [fetril.py] => Task 0, Epoch 159/200 => Loss 0.153, Train_accy 94.52
+2025-02-11 22:43:29,263 [fetril.py] => Task 0, Epoch 160/200 => Loss 0.142, Train_accy 94.48
+2025-02-11 22:43:30,300 [fetril.py] => Task 0, Epoch 161/200 => Loss 0.140, Train_accy 94.76, Test_accy 96.60
+2025-02-11 22:43:31,025 [fetril.py] => Task 0, Epoch 162/200 => Loss 0.155, Train_accy 93.76
+2025-02-11 22:43:31,775 [fetril.py] => Task 0, Epoch 163/200 => Loss 0.157, Train_accy 93.84
+2025-02-11 22:43:32,531 [fetril.py] => Task 0, Epoch 164/200 => Loss 0.137, Train_accy 94.92
+2025-02-11 22:43:33,254 [fetril.py] => Task 0, Epoch 165/200 => Loss 0.153, Train_accy 94.64
+2025-02-11 22:43:34,307 [fetril.py] => Task 0, Epoch 166/200 => Loss 0.148, Train_accy 94.72, Test_accy 97.80
+2025-02-11 22:43:35,046 [fetril.py] => Task 0, Epoch 167/200 => Loss 0.152, Train_accy 94.80
+2025-02-11 22:43:35,780 [fetril.py] => Task 0, Epoch 168/200 => Loss 0.143, Train_accy 94.60
+2025-02-11 22:43:36,551 [fetril.py] => Task 0, Epoch 169/200 => Loss 0.125, Train_accy 95.76
+2025-02-11 22:43:37,314 [fetril.py] => Task 0, Epoch 170/200 => Loss 0.140, Train_accy 94.68
+2025-02-11 22:43:38,343 [fetril.py] => Task 0, Epoch 171/200 => Loss 0.139, Train_accy 94.68, Test_accy 96.80
+2025-02-11 22:43:39,093 [fetril.py] => Task 0, Epoch 172/200 => Loss 0.129, Train_accy 95.40
+2025-02-11 22:43:39,826 [fetril.py] => Task 0, Epoch 173/200 => Loss 0.132, Train_accy 95.92
+2025-02-11 22:43:40,565 [fetril.py] => Task 0, Epoch 174/200 => Loss 0.144, Train_accy 94.88
+2025-02-11 22:43:41,296 [fetril.py] => Task 0, Epoch 175/200 => Loss 0.133, Train_accy 95.48
+2025-02-11 22:43:42,351 [fetril.py] => Task 0, Epoch 176/200 => Loss 0.138, Train_accy 94.88, Test_accy 97.60
+2025-02-11 22:43:43,077 [fetril.py] => Task 0, Epoch 177/200 => Loss 0.134, Train_accy 95.20
+2025-02-11 22:43:43,810 [fetril.py] => Task 0, Epoch 178/200 => Loss 0.145, Train_accy 95.04
+2025-02-11 22:43:44,591 [fetril.py] => Task 0, Epoch 179/200 => Loss 0.117, Train_accy 95.80
+2025-02-11 22:43:45,334 [fetril.py] => Task 0, Epoch 180/200 => Loss 0.126, Train_accy 95.72
+2025-02-11 22:43:46,407 [fetril.py] => Task 0, Epoch 181/200 => Loss 0.135, Train_accy 94.92, Test_accy 97.80
+2025-02-11 22:43:47,161 [fetril.py] => Task 0, Epoch 182/200 => Loss 0.112, Train_accy 96.04
+2025-02-11 22:43:47,915 [fetril.py] => Task 0, Epoch 183/200 => Loss 0.145, Train_accy 94.84
+2025-02-11 22:43:48,666 [fetril.py] => Task 0, Epoch 184/200 => Loss 0.144, Train_accy 94.60
+2025-02-11 22:43:49,401 [fetril.py] => Task 0, Epoch 185/200 => Loss 0.137, Train_accy 95.64
+2025-02-11 22:43:50,465 [fetril.py] => Task 0, Epoch 186/200 => Loss 0.138, Train_accy 94.92, Test_accy 97.20
+2025-02-11 22:43:51,201 [fetril.py] => Task 0, Epoch 187/200 => Loss 0.133, Train_accy 95.48
+2025-02-11 22:43:51,946 [fetril.py] => Task 0, Epoch 188/200 => Loss 0.130, Train_accy 94.92
+2025-02-11 22:43:52,686 [fetril.py] => Task 0, Epoch 189/200 => Loss 0.139, Train_accy 95.28
+2025-02-11 22:43:53,411 [fetril.py] => Task 0, Epoch 190/200 => Loss 0.131, Train_accy 95.12
+2025-02-11 22:43:54,489 [fetril.py] => Task 0, Epoch 191/200 => Loss 0.134, Train_accy 95.60, Test_accy 97.20
+2025-02-11 22:43:55,249 [fetril.py] => Task 0, Epoch 192/200 => Loss 0.124, Train_accy 95.52
+2025-02-11 22:43:56,015 [fetril.py] => Task 0, Epoch 193/200 => Loss 0.125, Train_accy 95.16
+2025-02-11 22:43:56,788 [fetril.py] => Task 0, Epoch 194/200 => Loss 0.136, Train_accy 94.72
+2025-02-11 22:43:57,537 [fetril.py] => Task 0, Epoch 195/200 => Loss 0.113, Train_accy 95.80
+2025-02-11 22:43:58,607 [fetril.py] => Task 0, Epoch 196/200 => Loss 0.123, Train_accy 96.12, Test_accy 97.20
+2025-02-11 22:43:59,357 [fetril.py] => Task 0, Epoch 197/200 => Loss 0.143, Train_accy 94.84
+2025-02-11 22:44:00,116 [fetril.py] => Task 0, Epoch 198/200 => Loss 0.123, Train_accy 95.56
+2025-02-11 22:44:00,861 [fetril.py] => Task 0, Epoch 199/200 => Loss 0.130, Train_accy 95.44
+2025-02-11 22:44:01,620 [fetril.py] => Task 0, Epoch 200/200 => Loss 0.123, Train_accy 95.44
+2025-02-11 22:44:04,868 [fetril.py] => svm train: acc: 100.0
+2025-02-11 22:44:04,869 [fetril.py] => svm evaluation: acc_list: [97.8]
+2025-02-11 22:44:05,224 [trainer.py] => No NME accuracy.
+2025-02-11 22:44:05,225 [trainer.py] => CNN: {'total': 97.2, '00-09': 97.2, 'old': 0, 'new': 97.2}
+2025-02-11 22:44:05,225 [trainer.py] => CNN top1 curve: [97.2]
+2025-02-11 22:44:05,225 [trainer.py] => CNN top5 curve: [100.0]
+
+2025-02-11 22:44:05,225 [trainer.py] => Average Accuracy (CNN): 97.2
+2025-02-11 22:44:05,226 [trainer.py] => All params: 464479
+2025-02-11 22:44:05,227 [trainer.py] => Trainable params: 464479
+2025-02-11 22:44:05,234 [fetril.py] => Learning on 5-10
+2025-02-11 22:44:05,235 [fetril.py] => All params: 464804
+2025-02-11 22:44:05,235 [fetril.py] => Trainable params: 650
+2025-02-11 22:44:10,150 [fetril.py] => Task 1, Epoch 1/50 => Loss 1.042, Train_accy 64.56, Test_accy 71.40
+2025-02-11 22:44:10,534 [fetril.py] => Task 1, Epoch 2/50 => Loss 0.646, Train_accy 75.94
+2025-02-11 22:44:10,879 [fetril.py] => Task 1, Epoch 3/50 => Loss 0.602, Train_accy 77.08
+2025-02-11 22:44:11,247 [fetril.py] => Task 1, Epoch 4/50 => Loss 0.580, Train_accy 79.18
+2025-02-11 22:44:11,594 [fetril.py] => Task 1, Epoch 5/50 => Loss 0.564, Train_accy 78.90
+2025-02-11 22:44:12,330 [fetril.py] => Task 1, Epoch 6/50 => Loss 0.526, Train_accy 80.56, Test_accy 75.80
+2025-02-11 22:44:12,674 [fetril.py] => Task 1, Epoch 7/50 => Loss 0.524, Train_accy 81.02
+2025-02-11 22:44:13,045 [fetril.py] => Task 1, Epoch 8/50 => Loss 0.513, Train_accy 81.60
+2025-02-11 22:44:13,399 [fetril.py] => Task 1, Epoch 9/50 => Loss 0.504, Train_accy 81.74
+2025-02-11 22:44:13,761 [fetril.py] => Task 1, Epoch 10/50 => Loss 0.495, Train_accy 82.34
+2025-02-11 22:44:14,453 [fetril.py] => Task 1, Epoch 11/50 => Loss 0.495, Train_accy 82.50, Test_accy 78.00
+2025-02-11 22:44:14,812 [fetril.py] => Task 1, Epoch 12/50 => Loss 0.481, Train_accy 82.64
+2025-02-11 22:44:15,161 [fetril.py] => Task 1, Epoch 13/50 => Loss 0.474, Train_accy 83.04
+2025-02-11 22:44:15,529 [fetril.py] => Task 1, Epoch 14/50 => Loss 0.480, Train_accy 83.26
+2025-02-11 22:44:15,884 [fetril.py] => Task 1, Epoch 15/50 => Loss 0.494, Train_accy 82.70
+2025-02-11 22:44:16,587 [fetril.py] => Task 1, Epoch 16/50 => Loss 0.475, Train_accy 83.24, Test_accy 77.70
+2025-02-11 22:44:16,939 [fetril.py] => Task 1, Epoch 17/50 => Loss 0.463, Train_accy 83.56
+2025-02-11 22:44:17,284 [fetril.py] => Task 1, Epoch 18/50 => Loss 0.459, Train_accy 83.48
+2025-02-11 22:44:17,631 [fetril.py] => Task 1, Epoch 19/50 => Loss 0.459, Train_accy 83.40
+2025-02-11 22:44:17,966 [fetril.py] => Task 1, Epoch 20/50 => Loss 0.461, Train_accy 83.98
+2025-02-11 22:44:18,658 [fetril.py] => Task 1, Epoch 21/50 => Loss 0.454, Train_accy 83.80, Test_accy 79.00
+2025-02-11 22:44:19,008 [fetril.py] => Task 1, Epoch 22/50 => Loss 0.464, Train_accy 83.80
+2025-02-11 22:44:19,354 [fetril.py] => Task 1, Epoch 23/50 => Loss 0.451, Train_accy 83.72
+2025-02-11 22:44:19,706 [fetril.py] => Task 1, Epoch 24/50 => Loss 0.451, Train_accy 83.78
+2025-02-11 22:44:20,070 [fetril.py] => Task 1, Epoch 25/50 => Loss 0.458, Train_accy 84.20
+2025-02-11 22:44:20,763 [fetril.py] => Task 1, Epoch 26/50 => Loss 0.472, Train_accy 83.12, Test_accy 77.40
+2025-02-11 22:44:21,111 [fetril.py] => Task 1, Epoch 27/50 => Loss 0.451, Train_accy 83.86
+2025-02-11 22:44:21,451 [fetril.py] => Task 1, Epoch 28/50 => Loss 0.455, Train_accy 84.38
+2025-02-11 22:44:21,818 [fetril.py] => Task 1, Epoch 29/50 => Loss 0.446, Train_accy 83.78
+2025-02-11 22:44:22,179 [fetril.py] => Task 1, Epoch 30/50 => Loss 0.440, Train_accy 84.40
+2025-02-11 22:44:22,880 [fetril.py] => Task 1, Epoch 31/50 => Loss 0.448, Train_accy 84.70, Test_accy 77.30
+2025-02-11 22:44:23,235 [fetril.py] => Task 1, Epoch 32/50 => Loss 0.454, Train_accy 84.28
+2025-02-11 22:44:23,587 [fetril.py] => Task 1, Epoch 33/50 => Loss 0.436, Train_accy 84.48
+2025-02-11 22:44:23,958 [fetril.py] => Task 1, Epoch 34/50 => Loss 0.443, Train_accy 84.44
+2025-02-11 22:44:24,303 [fetril.py] => Task 1, Epoch 35/50 => Loss 0.438, Train_accy 84.50
+2025-02-11 22:44:25,015 [fetril.py] => Task 1, Epoch 36/50 => Loss 0.451, Train_accy 84.42, Test_accy 78.80
+2025-02-11 22:44:25,359 [fetril.py] => Task 1, Epoch 37/50 => Loss 0.438, Train_accy 84.90
+2025-02-11 22:44:25,722 [fetril.py] => Task 1, Epoch 38/50 => Loss 0.435, Train_accy 84.66
+2025-02-11 22:44:26,076 [fetril.py] => Task 1, Epoch 39/50 => Loss 0.439, Train_accy 84.76
+2025-02-11 22:44:26,429 [fetril.py] => Task 1, Epoch 40/50 => Loss 0.432, Train_accy 84.70
+2025-02-11 22:44:27,117 [fetril.py] => Task 1, Epoch 41/50 => Loss 0.437, Train_accy 84.72, Test_accy 79.40
+2025-02-11 22:44:27,482 [fetril.py] => Task 1, Epoch 42/50 => Loss 0.433, Train_accy 84.80
+2025-02-11 22:44:27,836 [fetril.py] => Task 1, Epoch 43/50 => Loss 0.433, Train_accy 84.50
+2025-02-11 22:44:28,215 [fetril.py] => Task 1, Epoch 44/50 => Loss 0.436, Train_accy 84.92
+2025-02-11 22:44:28,575 [fetril.py] => Task 1, Epoch 45/50 => Loss 0.436, Train_accy 84.58
+2025-02-11 22:44:29,294 [fetril.py] => Task 1, Epoch 46/50 => Loss 0.429, Train_accy 84.68, Test_accy 79.30
+2025-02-11 22:44:29,634 [fetril.py] => Task 1, Epoch 47/50 => Loss 0.443, Train_accy 84.74
+2025-02-11 22:44:29,974 [fetril.py] => Task 1, Epoch 48/50 => Loss 0.434, Train_accy 84.70
+2025-02-11 22:44:30,343 [fetril.py] => Task 1, Epoch 49/50 => Loss 0.428, Train_accy 84.66
+2025-02-11 22:44:30,702 [fetril.py] => Task 1, Epoch 50/50 => Loss 0.432, Train_accy 84.66
+2025-02-11 22:44:30,892 [fetril.py] => svm train: acc: 84.44
+2025-02-11 22:44:30,893 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6]
+2025-02-11 22:44:31,226 [trainer.py] => No NME accuracy.
+2025-02-11 22:44:31,226 [trainer.py] => CNN: {'total': 79.3, '00-09': 79.3, 'old': 88.4, 'new': 70.2}
+2025-02-11 22:44:31,226 [trainer.py] => CNN top1 curve: [97.2, 79.3]
+2025-02-11 22:44:31,227 [trainer.py] => CNN top5 curve: [100.0, 98.4]
+
+2025-02-11 22:44:31,227 [trainer.py] => Average Accuracy (CNN): 88.25
+2025-02-11 22:44:31,228 [trainer.py] => All params: 464804
+2025-02-11 22:44:31,228 [trainer.py] => Trainable params: 650
+2025-02-11 22:44:31,236 [fetril.py] => Learning on 10-15
+2025-02-11 22:44:31,237 [fetril.py] => All params: 465129
+2025-02-11 22:44:31,237 [fetril.py] => Trainable params: 975
+2025-02-11 22:44:37,121 [fetril.py] => Task 2, Epoch 1/50 => Loss 1.312, Train_accy 56.93, Test_accy 58.33
+2025-02-11 22:44:37,520 [fetril.py] => Task 2, Epoch 2/50 => Loss 1.090, Train_accy 63.48
+2025-02-11 22:44:37,920 [fetril.py] => Task 2, Epoch 3/50 => Loss 1.048, Train_accy 65.17
+2025-02-11 22:44:38,306 [fetril.py] => Task 2, Epoch 4/50 => Loss 1.018, Train_accy 66.08
+2025-02-11 22:44:38,706 [fetril.py] => Task 2, Epoch 5/50 => Loss 1.011, Train_accy 66.52
+2025-02-11 22:44:39,494 [fetril.py] => Task 2, Epoch 6/50 => Loss 0.998, Train_accy 66.89, Test_accy 62.27
+2025-02-11 22:44:39,874 [fetril.py] => Task 2, Epoch 7/50 => Loss 0.988, Train_accy 67.51
+2025-02-11 22:44:40,267 [fetril.py] => Task 2, Epoch 8/50 => Loss 0.985, Train_accy 67.72
+2025-02-11 22:44:40,668 [fetril.py] => Task 2, Epoch 9/50 => Loss 0.972, Train_accy 67.85
+2025-02-11 22:44:41,063 [fetril.py] => Task 2, Epoch 10/50 => Loss 0.964, Train_accy 68.24
+2025-02-11 22:44:41,805 [fetril.py] => Task 2, Epoch 11/50 => Loss 0.960, Train_accy 68.47, Test_accy 61.87
+2025-02-11 22:44:42,206 [fetril.py] => Task 2, Epoch 12/50 => Loss 0.961, Train_accy 68.51
+2025-02-11 22:44:42,588 [fetril.py] => Task 2, Epoch 13/50 => Loss 0.955, Train_accy 68.75
+2025-02-11 22:44:42,990 [fetril.py] => Task 2, Epoch 14/50 => Loss 0.948, Train_accy 69.16
+2025-02-11 22:44:43,378 [fetril.py] => Task 2, Epoch 15/50 => Loss 0.949, Train_accy 69.44
+2025-02-11 22:44:44,128 [fetril.py] => Task 2, Epoch 16/50 => Loss 0.944, Train_accy 69.28, Test_accy 61.67
+2025-02-11 22:44:44,526 [fetril.py] => Task 2, Epoch 17/50 => Loss 0.938, Train_accy 69.53
+2025-02-11 22:44:44,908 [fetril.py] => Task 2, Epoch 18/50 => Loss 0.936, Train_accy 69.52
+2025-02-11 22:44:45,313 [fetril.py] => Task 2, Epoch 19/50 => Loss 0.935, Train_accy 69.87
+2025-02-11 22:44:45,697 [fetril.py] => Task 2, Epoch 20/50 => Loss 0.932, Train_accy 69.88
+2025-02-11 22:44:46,453 [fetril.py] => Task 2, Epoch 21/50 => Loss 0.931, Train_accy 69.91, Test_accy 62.47
+2025-02-11 22:44:46,848 [fetril.py] => Task 2, Epoch 22/50 => Loss 0.929, Train_accy 70.33
+2025-02-11 22:44:47,243 [fetril.py] => Task 2, Epoch 23/50 => Loss 0.928, Train_accy 70.04
+2025-02-11 22:44:47,632 [fetril.py] => Task 2, Epoch 24/50 => Loss 0.922, Train_accy 70.65
+2025-02-11 22:44:48,011 [fetril.py] => Task 2, Epoch 25/50 => Loss 0.923, Train_accy 70.20
+2025-02-11 22:44:48,771 [fetril.py] => Task 2, Epoch 26/50 => Loss 0.926, Train_accy 70.24, Test_accy 63.53
+2025-02-11 22:44:49,168 [fetril.py] => Task 2, Epoch 27/50 => Loss 0.920, Train_accy 70.51
+2025-02-11 22:44:49,564 [fetril.py] => Task 2, Epoch 28/50 => Loss 0.920, Train_accy 70.73
+2025-02-11 22:44:49,954 [fetril.py] => Task 2, Epoch 29/50 => Loss 0.915, Train_accy 70.81
+2025-02-11 22:44:50,354 [fetril.py] => Task 2, Epoch 30/50 => Loss 0.919, Train_accy 70.75
+2025-02-11 22:44:51,109 [fetril.py] => Task 2, Epoch 31/50 => Loss 0.917, Train_accy 70.84, Test_accy 63.33
+2025-02-11 22:44:51,493 [fetril.py] => Task 2, Epoch 32/50 => Loss 0.917, Train_accy 70.57
+2025-02-11 22:44:51,893 [fetril.py] => Task 2, Epoch 33/50 => Loss 0.915, Train_accy 70.96
+2025-02-11 22:44:52,291 [fetril.py] => Task 2, Epoch 34/50 => Loss 0.914, Train_accy 70.67
+2025-02-11 22:44:52,673 [fetril.py] => Task 2, Epoch 35/50 => Loss 0.912, Train_accy 70.77
+2025-02-11 22:44:53,452 [fetril.py] => Task 2, Epoch 36/50 => Loss 0.911, Train_accy 70.91, Test_accy 63.20
+2025-02-11 22:44:53,829 [fetril.py] => Task 2, Epoch 37/50 => Loss 0.911, Train_accy 71.07
+2025-02-11 22:44:54,216 [fetril.py] => Task 2, Epoch 38/50 => Loss 0.909, Train_accy 71.05
+2025-02-11 22:44:54,600 [fetril.py] => Task 2, Epoch 39/50 => Loss 0.909, Train_accy 71.21
+2025-02-11 22:44:54,991 [fetril.py] => Task 2, Epoch 40/50 => Loss 0.909, Train_accy 71.03
+2025-02-11 22:44:55,728 [fetril.py] => Task 2, Epoch 41/50 => Loss 0.909, Train_accy 71.19, Test_accy 63.20
+2025-02-11 22:44:56,109 [fetril.py] => Task 2, Epoch 42/50 => Loss 0.907, Train_accy 71.07
+2025-02-11 22:44:56,494 [fetril.py] => Task 2, Epoch 43/50 => Loss 0.907, Train_accy 71.27
+2025-02-11 22:44:56,891 [fetril.py] => Task 2, Epoch 44/50 => Loss 0.905, Train_accy 71.41
+2025-02-11 22:44:57,263 [fetril.py] => Task 2, Epoch 45/50 => Loss 0.907, Train_accy 71.33
+2025-02-11 22:44:58,039 [fetril.py] => Task 2, Epoch 46/50 => Loss 0.905, Train_accy 71.24, Test_accy 63.40
+2025-02-11 22:44:58,456 [fetril.py] => Task 2, Epoch 47/50 => Loss 0.905, Train_accy 71.36
+2025-02-11 22:44:58,834 [fetril.py] => Task 2, Epoch 48/50 => Loss 0.904, Train_accy 71.31
+2025-02-11 22:44:59,217 [fetril.py] => Task 2, Epoch 49/50 => Loss 0.906, Train_accy 71.33
+2025-02-11 22:44:59,612 [fetril.py] => Task 2, Epoch 50/50 => Loss 0.905, Train_accy 71.33
+2025-02-11 22:45:00,120 [fetril.py] => svm train: acc: 71.92
+2025-02-11 22:45:00,121 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6, 62.87]
+2025-02-11 22:45:00,484 [trainer.py] => No NME accuracy.
+2025-02-11 22:45:00,484 [trainer.py] => CNN: {'total': 63.47, '00-09': 69.7, '10-19': 51.0, 'old': 69.7, 'new': 51.0}
+2025-02-11 22:45:00,484 [trainer.py] => CNN top1 curve: [97.2, 79.3, 63.47]
+2025-02-11 22:45:00,484 [trainer.py] => CNN top5 curve: [100.0, 98.4, 92.27]
+
+2025-02-11 22:45:00,485 [trainer.py] => Average Accuracy (CNN): 79.99
+2025-02-11 22:45:00,485 [trainer.py] => All params: 465129
+2025-02-11 22:45:00,486 [trainer.py] => Trainable params: 975
+2025-02-11 22:45:00,494 [fetril.py] => Learning on 15-20
+2025-02-11 22:45:00,494 [fetril.py] => All params: 465454
+2025-02-11 22:45:00,495 [fetril.py] => Trainable params: 1300
+2025-02-11 22:45:07,442 [fetril.py] => Task 3, Epoch 1/50 => Loss 1.560, Train_accy 50.69, Test_accy 48.95
+2025-02-11 22:45:07,881 [fetril.py] => Task 3, Epoch 2/50 => Loss 1.456, Train_accy 53.70
+2025-02-11 22:45:08,304 [fetril.py] => Task 3, Epoch 3/50 => Loss 1.421, Train_accy 54.95
+2025-02-11 22:45:08,743 [fetril.py] => Task 3, Epoch 4/50 => Loss 1.419, Train_accy 55.17
+2025-02-11 22:45:09,170 [fetril.py] => Task 3, Epoch 5/50 => Loss 1.408, Train_accy 55.72
+2025-02-11 22:45:09,984 [fetril.py] => Task 3, Epoch 6/50 => Loss 1.405, Train_accy 55.52, Test_accy 49.80
+2025-02-11 22:45:10,393 [fetril.py] => Task 3, Epoch 7/50 => Loss 1.388, Train_accy 56.21
+2025-02-11 22:45:10,820 [fetril.py] => Task 3, Epoch 8/50 => Loss 1.381, Train_accy 56.22
+2025-02-11 22:45:11,255 [fetril.py] => Task 3, Epoch 9/50 => Loss 1.381, Train_accy 56.56
+2025-02-11 22:45:11,670 [fetril.py] => Task 3, Epoch 10/50 => Loss 1.378, Train_accy 56.86
+2025-02-11 22:45:12,462 [fetril.py] => Task 3, Epoch 11/50 => Loss 1.373, Train_accy 56.98, Test_accy 51.30
+2025-02-11 22:45:12,887 [fetril.py] => Task 3, Epoch 12/50 => Loss 1.362, Train_accy 56.86
+2025-02-11 22:45:13,293 [fetril.py] => Task 3, Epoch 13/50 => Loss 1.357, Train_accy 57.78
+2025-02-11 22:45:13,696 [fetril.py] => Task 3, Epoch 14/50 => Loss 1.354, Train_accy 57.30
+2025-02-11 22:45:14,145 [fetril.py] => Task 3, Epoch 15/50 => Loss 1.352, Train_accy 57.89
+2025-02-11 22:45:14,948 [fetril.py] => Task 3, Epoch 16/50 => Loss 1.350, Train_accy 57.66, Test_accy 52.05
+2025-02-11 22:45:15,360 [fetril.py] => Task 3, Epoch 17/50 => Loss 1.356, Train_accy 57.67
+2025-02-11 22:45:15,793 [fetril.py] => Task 3, Epoch 18/50 => Loss 1.353, Train_accy 57.99
+2025-02-11 22:45:16,205 [fetril.py] => Task 3, Epoch 19/50 => Loss 1.345, Train_accy 57.92
+2025-02-11 22:45:16,617 [fetril.py] => Task 3, Epoch 20/50 => Loss 1.350, Train_accy 57.97
+2025-02-11 22:45:17,428 [fetril.py] => Task 3, Epoch 21/50 => Loss 1.343, Train_accy 58.18, Test_accy 51.35
+2025-02-11 22:45:17,840 [fetril.py] => Task 3, Epoch 22/50 => Loss 1.347, Train_accy 57.84
+2025-02-11 22:45:18,265 [fetril.py] => Task 3, Epoch 23/50 => Loss 1.338, Train_accy 58.26
+2025-02-11 22:45:18,684 [fetril.py] => Task 3, Epoch 24/50 => Loss 1.342, Train_accy 57.88
+2025-02-11 22:45:19,110 [fetril.py] => Task 3, Epoch 25/50 => Loss 1.342, Train_accy 58.49
+2025-02-11 22:45:19,936 [fetril.py] => Task 3, Epoch 26/50 => Loss 1.333, Train_accy 58.70, Test_accy 52.35
+2025-02-11 22:45:20,352 [fetril.py] => Task 3, Epoch 27/50 => Loss 1.337, Train_accy 58.51
+2025-02-11 22:45:20,757 [fetril.py] => Task 3, Epoch 28/50 => Loss 1.335, Train_accy 58.69
+2025-02-11 22:45:21,162 [fetril.py] => Task 3, Epoch 29/50 => Loss 1.334, Train_accy 59.03
+2025-02-11 22:45:21,580 [fetril.py] => Task 3, Epoch 30/50 => Loss 1.330, Train_accy 58.44
+2025-02-11 22:45:22,407 [fetril.py] => Task 3, Epoch 31/50 => Loss 1.329, Train_accy 58.48, Test_accy 52.40
+2025-02-11 22:45:22,833 [fetril.py] => Task 3, Epoch 32/50 => Loss 1.334, Train_accy 58.78
+2025-02-11 22:45:23,251 [fetril.py] => Task 3, Epoch 33/50 => Loss 1.326, Train_accy 58.70
+2025-02-11 22:45:23,677 [fetril.py] => Task 3, Epoch 34/50 => Loss 1.329, Train_accy 59.04
+2025-02-11 22:45:24,099 [fetril.py] => Task 3, Epoch 35/50 => Loss 1.323, Train_accy 58.81
+2025-02-11 22:45:24,943 [fetril.py] => Task 3, Epoch 36/50 => Loss 1.325, Train_accy 58.94, Test_accy 51.80
+2025-02-11 22:45:25,394 [fetril.py] => Task 3, Epoch 37/50 => Loss 1.322, Train_accy 58.67
+2025-02-11 22:45:25,812 [fetril.py] => Task 3, Epoch 38/50 => Loss 1.319, Train_accy 59.32
+2025-02-11 22:45:26,247 [fetril.py] => Task 3, Epoch 39/50 => Loss 1.323, Train_accy 59.17
+2025-02-11 22:45:26,648 [fetril.py] => Task 3, Epoch 40/50 => Loss 1.321, Train_accy 59.23
+2025-02-11 22:45:27,457 [fetril.py] => Task 3, Epoch 41/50 => Loss 1.323, Train_accy 59.58, Test_accy 52.85
+2025-02-11 22:45:27,878 [fetril.py] => Task 3, Epoch 42/50 => Loss 1.322, Train_accy 59.42
+2025-02-11 22:45:28,299 [fetril.py] => Task 3, Epoch 43/50 => Loss 1.318, Train_accy 59.43
+2025-02-11 22:45:28,712 [fetril.py] => Task 3, Epoch 44/50 => Loss 1.321, Train_accy 59.43
+2025-02-11 22:45:29,125 [fetril.py] => Task 3, Epoch 45/50 => Loss 1.315, Train_accy 59.50
+2025-02-11 22:45:29,949 [fetril.py] => Task 3, Epoch 46/50 => Loss 1.320, Train_accy 59.63, Test_accy 52.70
+2025-02-11 22:45:30,350 [fetril.py] => Task 3, Epoch 47/50 => Loss 1.318, Train_accy 59.60
+2025-02-11 22:45:30,759 [fetril.py] => Task 3, Epoch 48/50 => Loss 1.318, Train_accy 59.61
+2025-02-11 22:45:31,178 [fetril.py] => Task 3, Epoch 49/50 => Loss 1.317, Train_accy 59.62
+2025-02-11 22:45:31,601 [fetril.py] => Task 3, Epoch 50/50 => Loss 1.315, Train_accy 59.63
+2025-02-11 22:45:32,594 [fetril.py] => svm train: acc: 60.68
+2025-02-11 22:45:32,596 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6, 62.87, 52.5]
+2025-02-11 22:45:33,001 [trainer.py] => No NME accuracy.
+2025-02-11 22:45:33,002 [trainer.py] => CNN: {'total': 52.6, '00-09': 65.8, '10-19': 39.4, 'old': 57.6, 'new': 37.6}
+2025-02-11 22:45:33,002 [trainer.py] => CNN top1 curve: [97.2, 79.3, 63.47, 52.6]
+2025-02-11 22:45:33,002 [trainer.py] => CNN top5 curve: [100.0, 98.4, 92.27, 85.2]
+
+2025-02-11 22:45:33,002 [trainer.py] => Average Accuracy (CNN): 73.1425
+2025-02-11 22:45:33,003 [trainer.py] => All params: 465454
+2025-02-11 22:45:33,004 [trainer.py] => Trainable params: 1300
+2025-02-11 22:45:33,012 [fetril.py] => Learning on 20-25
+2025-02-11 22:45:33,013 [fetril.py] => All params: 465779
+2025-02-11 22:45:33,013 [fetril.py] => Trainable params: 1625
+2025-02-11 22:45:41,027 [fetril.py] => Task 4, Epoch 1/50 => Loss 1.793, Train_accy 46.60, Test_accy 42.08
+2025-02-11 22:45:41,500 [fetril.py] => Task 4, Epoch 2/50 => Loss 1.712, Train_accy 48.29
+2025-02-11 22:45:41,970 [fetril.py] => Task 4, Epoch 3/50 => Loss 1.679, Train_accy 49.39
+2025-02-11 22:45:42,421 [fetril.py] => Task 4, Epoch 4/50 => Loss 1.665, Train_accy 49.83
+2025-02-11 22:45:42,854 [fetril.py] => Task 4, Epoch 5/50 => Loss 1.642, Train_accy 50.58
+2025-02-11 22:45:43,712 [fetril.py] => Task 4, Epoch 6/50 => Loss 1.633, Train_accy 51.21, Test_accy 43.00
+2025-02-11 22:45:44,155 [fetril.py] => Task 4, Epoch 7/50 => Loss 1.623, Train_accy 51.06
+2025-02-11 22:45:44,621 [fetril.py] => Task 4, Epoch 8/50 => Loss 1.617, Train_accy 51.51
+2025-02-11 22:45:45,080 [fetril.py] => Task 4, Epoch 9/50 => Loss 1.615, Train_accy 51.32
+2025-02-11 22:45:45,533 [fetril.py] => Task 4, Epoch 10/50 => Loss 1.610, Train_accy 51.85
+2025-02-11 22:45:46,386 [fetril.py] => Task 4, Epoch 11/50 => Loss 1.606, Train_accy 51.62, Test_accy 43.20
+2025-02-11 22:45:46,856 [fetril.py] => Task 4, Epoch 12/50 => Loss 1.601, Train_accy 51.50
+2025-02-11 22:45:47,306 [fetril.py] => Task 4, Epoch 13/50 => Loss 1.594, Train_accy 52.66
+2025-02-11 22:45:47,758 [fetril.py] => Task 4, Epoch 14/50 => Loss 1.596, Train_accy 51.95
+2025-02-11 22:45:48,220 [fetril.py] => Task 4, Epoch 15/50 => Loss 1.597, Train_accy 51.78
+2025-02-11 22:45:49,084 [fetril.py] => Task 4, Epoch 16/50 => Loss 1.591, Train_accy 52.62, Test_accy 45.20
+2025-02-11 22:45:49,547 [fetril.py] => Task 4, Epoch 17/50 => Loss 1.587, Train_accy 52.41
+2025-02-11 22:45:50,000 [fetril.py] => Task 4, Epoch 18/50 => Loss 1.586, Train_accy 52.33
+2025-02-11 22:45:50,440 [fetril.py] => Task 4, Epoch 19/50 => Loss 1.584, Train_accy 52.60
+2025-02-11 22:45:50,895 [fetril.py] => Task 4, Epoch 20/50 => Loss 1.582, Train_accy 52.56
+2025-02-11 22:45:51,749 [fetril.py] => Task 4, Epoch 21/50 => Loss 1.582, Train_accy 52.28, Test_accy 45.52
+2025-02-11 22:45:52,204 [fetril.py] => Task 4, Epoch 22/50 => Loss 1.585, Train_accy 52.48
+2025-02-11 22:45:52,638 [fetril.py] => Task 4, Epoch 23/50 => Loss 1.580, Train_accy 52.50
+2025-02-11 22:45:53,098 [fetril.py] => Task 4, Epoch 24/50 => Loss 1.577, Train_accy 52.91
+2025-02-11 22:45:53,559 [fetril.py] => Task 4, Epoch 25/50 => Loss 1.577, Train_accy 52.84
+2025-02-11 22:45:54,426 [fetril.py] => Task 4, Epoch 26/50 => Loss 1.577, Train_accy 52.78, Test_accy 44.56
+2025-02-11 22:45:54,875 [fetril.py] => Task 4, Epoch 27/50 => Loss 1.574, Train_accy 52.98
+2025-02-11 22:45:55,324 [fetril.py] => Task 4, Epoch 28/50 => Loss 1.573, Train_accy 53.06
+2025-02-11 22:45:55,789 [fetril.py] => Task 4, Epoch 29/50 => Loss 1.572, Train_accy 53.16
+2025-02-11 22:45:56,240 [fetril.py] => Task 4, Epoch 30/50 => Loss 1.572, Train_accy 53.10
+2025-02-11 22:45:57,116 [fetril.py] => Task 4, Epoch 31/50 => Loss 1.570, Train_accy 53.43, Test_accy 45.36
+2025-02-11 22:45:57,585 [fetril.py] => Task 4, Epoch 32/50 => Loss 1.566, Train_accy 53.23
+2025-02-11 22:45:58,076 [fetril.py] => Task 4, Epoch 33/50 => Loss 1.566, Train_accy 53.22
+2025-02-11 22:45:58,540 [fetril.py] => Task 4, Epoch 34/50 => Loss 1.563, Train_accy 53.79
+2025-02-11 22:45:58,999 [fetril.py] => Task 4, Epoch 35/50 => Loss 1.563, Train_accy 53.65
+2025-02-11 22:45:59,897 [fetril.py] => Task 4, Epoch 36/50 => Loss 1.562, Train_accy 53.70, Test_accy 46.12
+2025-02-11 22:46:00,352 [fetril.py] => Task 4, Epoch 37/50 => Loss 1.561, Train_accy 53.70
+2025-02-11 22:46:00,812 [fetril.py] => Task 4, Epoch 38/50 => Loss 1.560, Train_accy 53.86
+2025-02-11 22:46:01,271 [fetril.py] => Task 4, Epoch 39/50 => Loss 1.561, Train_accy 53.67
+2025-02-11 22:46:01,729 [fetril.py] => Task 4, Epoch 40/50 => Loss 1.560, Train_accy 53.98
+2025-02-11 22:46:02,619 [fetril.py] => Task 4, Epoch 41/50 => Loss 1.558, Train_accy 54.05, Test_accy 45.96
+2025-02-11 22:46:03,092 [fetril.py] => Task 4, Epoch 42/50 => Loss 1.559, Train_accy 53.93
+2025-02-11 22:46:03,546 [fetril.py] => Task 4, Epoch 43/50 => Loss 1.557, Train_accy 54.10
+2025-02-11 22:46:04,014 [fetril.py] => Task 4, Epoch 44/50 => Loss 1.557, Train_accy 54.06
+2025-02-11 22:46:04,474 [fetril.py] => Task 4, Epoch 45/50 => Loss 1.556, Train_accy 54.06
+2025-02-11 22:46:05,349 [fetril.py] => Task 4, Epoch 46/50 => Loss 1.556, Train_accy 54.10, Test_accy 45.92
+2025-02-11 22:46:05,796 [fetril.py] => Task 4, Epoch 47/50 => Loss 1.555, Train_accy 54.18
+2025-02-11 22:46:06,248 [fetril.py] => Task 4, Epoch 48/50 => Loss 1.555, Train_accy 54.16
+2025-02-11 22:46:06,696 [fetril.py] => Task 4, Epoch 49/50 => Loss 1.555, Train_accy 54.21
+2025-02-11 22:46:07,155 [fetril.py] => Task 4, Epoch 50/50 => Loss 1.554, Train_accy 54.20
+2025-02-11 22:46:08,722 [fetril.py] => svm train: acc: 56.74
+2025-02-11 22:46:08,724 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6, 62.87, 52.5, 46.88]
+2025-02-11 22:46:09,155 [trainer.py] => No NME accuracy.
+2025-02-11 22:46:09,155 [trainer.py] => CNN: {'total': 46.12, '00-09': 63.6, '10-19': 33.1, '20-29': 37.2, 'old': 48.35, 'new': 37.2}
+2025-02-11 22:46:09,155 [trainer.py] => CNN top1 curve: [97.2, 79.3, 63.47, 52.6, 46.12]
+2025-02-11 22:46:09,155 [trainer.py] => CNN top5 curve: [100.0, 98.4, 92.27, 85.2, 78.68]
+
+2025-02-11 22:46:09,156 [trainer.py] => Average Accuracy (CNN): 67.738
+2025-02-11 22:46:09,157 [trainer.py] => All params: 465779
+2025-02-11 22:46:09,157 [trainer.py] => Trainable params: 1625
+2025-02-11 22:46:09,164 [fetril.py] => Learning on 25-30
+2025-02-11 22:46:09,165 [fetril.py] => All params: 466104
+2025-02-11 22:46:09,165 [fetril.py] => Trainable params: 1950
+2025-02-11 22:46:18,254 [fetril.py] => Task 5, Epoch 1/50 => Loss 1.989, Train_accy 42.14, Test_accy 40.23
+2025-02-11 22:46:18,730 [fetril.py] => Task 5, Epoch 2/50 => Loss 1.913, Train_accy 44.05
+2025-02-11 22:46:19,213 [fetril.py] => Task 5, Epoch 3/50 => Loss 1.899, Train_accy 44.05
+2025-02-11 22:46:19,713 [fetril.py] => Task 5, Epoch 4/50 => Loss 1.886, Train_accy 44.47
+2025-02-11 22:46:20,188 [fetril.py] => Task 5, Epoch 5/50 => Loss 1.887, Train_accy 44.61
+2025-02-11 22:46:21,116 [fetril.py] => Task 5, Epoch 6/50 => Loss 1.874, Train_accy 45.01, Test_accy 42.03
+2025-02-11 22:46:21,618 [fetril.py] => Task 5, Epoch 7/50 => Loss 1.873, Train_accy 45.22
+2025-02-11 22:46:22,084 [fetril.py] => Task 5, Epoch 8/50 => Loss 1.863, Train_accy 45.68
+2025-02-11 22:46:22,564 [fetril.py] => Task 5, Epoch 9/50 => Loss 1.862, Train_accy 45.09
+2025-02-11 22:46:23,058 [fetril.py] => Task 5, Epoch 10/50 => Loss 1.859, Train_accy 45.47
+2025-02-11 22:46:23,989 [fetril.py] => Task 5, Epoch 11/50 => Loss 1.858, Train_accy 45.54, Test_accy 41.60
+2025-02-11 22:46:24,475 [fetril.py] => Task 5, Epoch 12/50 => Loss 1.851, Train_accy 45.83
+2025-02-11 22:46:24,965 [fetril.py] => Task 5, Epoch 13/50 => Loss 1.853, Train_accy 45.35
+2025-02-11 22:46:25,442 [fetril.py] => Task 5, Epoch 14/50 => Loss 1.846, Train_accy 46.32
+2025-02-11 22:46:25,930 [fetril.py] => Task 5, Epoch 15/50 => Loss 1.847, Train_accy 45.96
+2025-02-11 22:46:26,837 [fetril.py] => Task 5, Epoch 16/50 => Loss 1.848, Train_accy 46.29, Test_accy 42.23
+2025-02-11 22:46:27,330 [fetril.py] => Task 5, Epoch 17/50 => Loss 1.842, Train_accy 46.48
+2025-02-11 22:46:27,830 [fetril.py] => Task 5, Epoch 18/50 => Loss 1.838, Train_accy 46.09
+2025-02-11 22:46:28,310 [fetril.py] => Task 5, Epoch 19/50 => Loss 1.846, Train_accy 46.43
+2025-02-11 22:46:28,792 [fetril.py] => Task 5, Epoch 20/50 => Loss 1.838, Train_accy 46.36
+2025-02-11 22:46:29,706 [fetril.py] => Task 5, Epoch 21/50 => Loss 1.844, Train_accy 46.16, Test_accy 41.73
+2025-02-11 22:46:30,181 [fetril.py] => Task 5, Epoch 22/50 => Loss 1.834, Train_accy 46.34
+2025-02-11 22:46:30,666 [fetril.py] => Task 5, Epoch 23/50 => Loss 1.838, Train_accy 46.51
+2025-02-11 22:46:31,165 [fetril.py] => Task 5, Epoch 24/50 => Loss 1.835, Train_accy 46.49
+2025-02-11 22:46:31,661 [fetril.py] => Task 5, Epoch 25/50 => Loss 1.835, Train_accy 46.51
+2025-02-11 22:46:32,606 [fetril.py] => Task 5, Epoch 26/50 => Loss 1.832, Train_accy 46.53, Test_accy 42.60
+2025-02-11 22:46:33,078 [fetril.py] => Task 5, Epoch 27/50 => Loss 1.830, Train_accy 46.59
+2025-02-11 22:46:33,543 [fetril.py] => Task 5, Epoch 28/50 => Loss 1.826, Train_accy 46.91
+2025-02-11 22:46:34,024 [fetril.py] => Task 5, Epoch 29/50 => Loss 1.830, Train_accy 46.80
+2025-02-11 22:46:34,533 [fetril.py] => Task 5, Epoch 30/50 => Loss 1.831, Train_accy 46.73
+2025-02-11 22:46:35,455 [fetril.py] => Task 5, Epoch 31/50 => Loss 1.826, Train_accy 47.04, Test_accy 42.77
+2025-02-11 22:46:35,952 [fetril.py] => Task 5, Epoch 32/50 => Loss 1.825, Train_accy 47.09
+2025-02-11 22:46:36,445 [fetril.py] => Task 5, Epoch 33/50 => Loss 1.821, Train_accy 47.25
+2025-02-11 22:46:36,922 [fetril.py] => Task 5, Epoch 34/50 => Loss 1.820, Train_accy 47.29
+2025-02-11 22:46:37,432 [fetril.py] => Task 5, Epoch 35/50 => Loss 1.821, Train_accy 47.28
+2025-02-11 22:46:38,354 [fetril.py] => Task 5, Epoch 36/50 => Loss 1.818, Train_accy 47.39, Test_accy 42.43
+2025-02-11 22:46:38,871 [fetril.py] => Task 5, Epoch 37/50 => Loss 1.820, Train_accy 47.31
+2025-02-11 22:46:39,355 [fetril.py] => Task 5, Epoch 38/50 => Loss 1.819, Train_accy 47.40
+2025-02-11 22:46:39,838 [fetril.py] => Task 5, Epoch 39/50 => Loss 1.816, Train_accy 47.57
+2025-02-11 22:46:40,334 [fetril.py] => Task 5, Epoch 40/50 => Loss 1.814, Train_accy 47.49
+2025-02-11 22:46:41,269 [fetril.py] => Task 5, Epoch 41/50 => Loss 1.813, Train_accy 47.66, Test_accy 43.03
+2025-02-11 22:46:41,758 [fetril.py] => Task 5, Epoch 42/50 => Loss 1.811, Train_accy 47.79
+2025-02-11 22:46:42,253 [fetril.py] => Task 5, Epoch 43/50 => Loss 1.813, Train_accy 47.46
+2025-02-11 22:46:42,751 [fetril.py] => Task 5, Epoch 44/50 => Loss 1.811, Train_accy 47.68
+2025-02-11 22:46:43,222 [fetril.py] => Task 5, Epoch 45/50 => Loss 1.813, Train_accy 47.66
+2025-02-11 22:46:44,150 [fetril.py] => Task 5, Epoch 46/50 => Loss 1.811, Train_accy 47.85, Test_accy 42.93
+2025-02-11 22:46:44,632 [fetril.py] => Task 5, Epoch 47/50 => Loss 1.809, Train_accy 47.80
+2025-02-11 22:46:45,102 [fetril.py] => Task 5, Epoch 48/50 => Loss 1.814, Train_accy 47.77
+2025-02-11 22:46:45,587 [fetril.py] => Task 5, Epoch 49/50 => Loss 1.812, Train_accy 47.79
+2025-02-11 22:46:46,071 [fetril.py] => Task 5, Epoch 50/50 => Loss 1.811, Train_accy 47.77
+2025-02-11 22:46:48,432 [fetril.py] => svm train: acc: 51.38
+2025-02-11 22:46:48,434 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6, 62.87, 52.5, 46.88, 42.93]
+2025-02-11 22:46:48,878 [trainer.py] => No NME accuracy.
+2025-02-11 22:46:48,878 [trainer.py] => CNN: {'total': 43.1, '00-09': 61.5, '10-19': 28.2, '20-29': 39.6, 'old': 42.36, 'new': 46.8}
+2025-02-11 22:46:48,878 [trainer.py] => CNN top1 curve: [97.2, 79.3, 63.47, 52.6, 46.12, 43.1]
+2025-02-11 22:46:48,878 [trainer.py] => CNN top5 curve: [100.0, 98.4, 92.27, 85.2, 78.68, 75.9]
+
+2025-02-11 22:46:48,879 [trainer.py] => Average Accuracy (CNN): 63.63166666666667
+2025-02-11 22:46:48,880 [trainer.py] => All params: 466104
+2025-02-11 22:46:48,880 [trainer.py] => Trainable params: 1950
+2025-02-11 22:46:48,888 [fetril.py] => Learning on 30-35
+2025-02-11 22:46:48,888 [fetril.py] => All params: 466429
+2025-02-11 22:46:48,889 [fetril.py] => Trainable params: 2275
+2025-02-11 22:46:58,995 [fetril.py] => Task 6, Epoch 1/50 => Loss 2.143, Train_accy 38.83, Test_accy 37.54
+2025-02-11 22:46:59,502 [fetril.py] => Task 6, Epoch 2/50 => Loss 2.077, Train_accy 40.19
+2025-02-11 22:47:00,018 [fetril.py] => Task 6, Epoch 3/50 => Loss 2.059, Train_accy 40.30
+2025-02-11 22:47:00,542 [fetril.py] => Task 6, Epoch 4/50 => Loss 2.042, Train_accy 41.20
+2025-02-11 22:47:01,055 [fetril.py] => Task 6, Epoch 5/50 => Loss 2.034, Train_accy 41.00
+2025-02-11 22:47:02,048 [fetril.py] => Task 6, Epoch 6/50 => Loss 2.025, Train_accy 42.06, Test_accy 36.94
+2025-02-11 22:47:02,586 [fetril.py] => Task 6, Epoch 7/50 => Loss 2.026, Train_accy 41.67
+2025-02-11 22:47:03,108 [fetril.py] => Task 6, Epoch 8/50 => Loss 2.016, Train_accy 41.81
+2025-02-11 22:47:03,631 [fetril.py] => Task 6, Epoch 9/50 => Loss 2.013, Train_accy 41.73
+2025-02-11 22:47:04,153 [fetril.py] => Task 6, Epoch 10/50 => Loss 2.014, Train_accy 41.84
+2025-02-11 22:47:05,130 [fetril.py] => Task 6, Epoch 11/50 => Loss 2.011, Train_accy 41.87, Test_accy 37.06
+2025-02-11 22:47:05,631 [fetril.py] => Task 6, Epoch 12/50 => Loss 2.007, Train_accy 42.05
+2025-02-11 22:47:06,126 [fetril.py] => Task 6, Epoch 13/50 => Loss 2.010, Train_accy 42.11
+2025-02-11 22:47:06,673 [fetril.py] => Task 6, Epoch 14/50 => Loss 2.005, Train_accy 42.31
+2025-02-11 22:47:07,196 [fetril.py] => Task 6, Epoch 15/50 => Loss 1.996, Train_accy 42.94
+2025-02-11 22:47:08,172 [fetril.py] => Task 6, Epoch 16/50 => Loss 1.997, Train_accy 42.62, Test_accy 37.83
+2025-02-11 22:47:08,727 [fetril.py] => Task 6, Epoch 17/50 => Loss 1.997, Train_accy 42.51
+2025-02-11 22:47:09,255 [fetril.py] => Task 6, Epoch 18/50 => Loss 1.998, Train_accy 42.31
+2025-02-11 22:47:09,753 [fetril.py] => Task 6, Epoch 19/50 => Loss 1.996, Train_accy 42.59
+2025-02-11 22:47:10,310 [fetril.py] => Task 6, Epoch 20/50 => Loss 1.996, Train_accy 42.50
+2025-02-11 22:47:11,347 [fetril.py] => Task 6, Epoch 21/50 => Loss 1.995, Train_accy 42.37, Test_accy 38.03
+2025-02-11 22:47:11,861 [fetril.py] => Task 6, Epoch 22/50 => Loss 1.990, Train_accy 43.23
+2025-02-11 22:47:12,381 [fetril.py] => Task 6, Epoch 23/50 => Loss 1.990, Train_accy 42.83
+2025-02-11 22:47:12,886 [fetril.py] => Task 6, Epoch 24/50 => Loss 1.988, Train_accy 42.99
+2025-02-11 22:47:13,424 [fetril.py] => Task 6, Epoch 25/50 => Loss 1.988, Train_accy 42.90
+2025-02-11 22:47:14,413 [fetril.py] => Task 6, Epoch 26/50 => Loss 1.984, Train_accy 43.25, Test_accy 38.26
+2025-02-11 22:47:14,945 [fetril.py] => Task 6, Epoch 27/50 => Loss 1.986, Train_accy 43.03
+2025-02-11 22:47:15,462 [fetril.py] => Task 6, Epoch 28/50 => Loss 1.982, Train_accy 43.30
+2025-02-11 22:47:15,991 [fetril.py] => Task 6, Epoch 29/50 => Loss 1.983, Train_accy 43.09
+2025-02-11 22:47:16,504 [fetril.py] => Task 6, Epoch 30/50 => Loss 1.979, Train_accy 43.60
+2025-02-11 22:47:17,507 [fetril.py] => Task 6, Epoch 31/50 => Loss 1.980, Train_accy 43.62, Test_accy 37.23
+2025-02-11 22:47:18,039 [fetril.py] => Task 6, Epoch 32/50 => Loss 1.980, Train_accy 43.63
+2025-02-11 22:47:18,581 [fetril.py] => Task 6, Epoch 33/50 => Loss 1.977, Train_accy 43.65
+2025-02-11 22:47:19,074 [fetril.py] => Task 6, Epoch 34/50 => Loss 1.973, Train_accy 43.59
+2025-02-11 22:47:19,571 [fetril.py] => Task 6, Epoch 35/50 => Loss 1.974, Train_accy 43.74
+2025-02-11 22:47:20,555 [fetril.py] => Task 6, Epoch 36/50 => Loss 1.973, Train_accy 43.82, Test_accy 38.20
+2025-02-11 22:47:21,082 [fetril.py] => Task 6, Epoch 37/50 => Loss 1.973, Train_accy 43.96
+2025-02-11 22:47:21,588 [fetril.py] => Task 6, Epoch 38/50 => Loss 1.971, Train_accy 43.87
+2025-02-11 22:47:22,102 [fetril.py] => Task 6, Epoch 39/50 => Loss 1.971, Train_accy 44.17
+2025-02-11 22:47:22,628 [fetril.py] => Task 6, Epoch 40/50 => Loss 1.970, Train_accy 43.94
+2025-02-11 22:47:23,614 [fetril.py] => Task 6, Epoch 41/50 => Loss 1.969, Train_accy 43.99, Test_accy 38.29
+2025-02-11 22:47:24,129 [fetril.py] => Task 6, Epoch 42/50 => Loss 1.968, Train_accy 44.30
+2025-02-11 22:47:24,667 [fetril.py] => Task 6, Epoch 43/50 => Loss 1.967, Train_accy 44.29
+2025-02-11 22:47:25,190 [fetril.py] => Task 6, Epoch 44/50 => Loss 1.967, Train_accy 44.26
+2025-02-11 22:47:25,702 [fetril.py] => Task 6, Epoch 45/50 => Loss 1.966, Train_accy 44.25
+2025-02-11 22:47:26,735 [fetril.py] => Task 6, Epoch 46/50 => Loss 1.965, Train_accy 44.38, Test_accy 38.46
+2025-02-11 22:47:27,289 [fetril.py] => Task 6, Epoch 47/50 => Loss 1.965, Train_accy 44.41
+2025-02-11 22:47:27,788 [fetril.py] => Task 6, Epoch 48/50 => Loss 1.965, Train_accy 44.42
+2025-02-11 22:47:28,280 [fetril.py] => Task 6, Epoch 49/50 => Loss 1.964, Train_accy 44.33
+2025-02-11 22:47:28,817 [fetril.py] => Task 6, Epoch 50/50 => Loss 1.964, Train_accy 44.42
+2025-02-11 22:47:31,929 [fetril.py] => svm train: acc: 48.58
+2025-02-11 22:47:31,931 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6, 62.87, 52.5, 46.88, 42.93, 39.31]
+2025-02-11 22:47:32,409 [trainer.py] => No NME accuracy.
+2025-02-11 22:47:32,410 [trainer.py] => CNN: {'total': 38.26, '00-09': 60.4, '10-19': 25.5, '20-29': 33.5, '30-39': 29.0, 'old': 39.8, 'new': 29.0}
+2025-02-11 22:47:32,410 [trainer.py] => CNN top1 curve: [97.2, 79.3, 63.47, 52.6, 46.12, 43.1, 38.26]
+2025-02-11 22:47:32,410 [trainer.py] => CNN top5 curve: [100.0, 98.4, 92.27, 85.2, 78.68, 75.9, 71.54]
+
+2025-02-11 22:47:32,410 [trainer.py] => Average Accuracy (CNN): 60.00714285714286
+2025-02-11 22:47:32,411 [trainer.py] => All params: 466429
+2025-02-11 22:47:32,412 [trainer.py] => Trainable params: 2275
+2025-02-11 22:47:32,418 [fetril.py] => Learning on 35-40
+2025-02-11 22:47:32,418 [fetril.py] => All params: 466754
+2025-02-11 22:47:32,418 [fetril.py] => Trainable params: 2600
+2025-02-11 22:47:43,604 [fetril.py] => Task 7, Epoch 1/50 => Loss 2.368, Train_accy 34.20, Test_accy 33.40
+2025-02-11 22:47:44,159 [fetril.py] => Task 7, Epoch 2/50 => Loss 2.322, Train_accy 34.98
+2025-02-11 22:47:44,732 [fetril.py] => Task 7, Epoch 3/50 => Loss 2.297, Train_accy 35.67
+2025-02-11 22:47:45,277 [fetril.py] => Task 7, Epoch 4/50 => Loss 2.294, Train_accy 35.83
+2025-02-11 22:47:45,851 [fetril.py] => Task 7, Epoch 5/50 => Loss 2.287, Train_accy 36.01
+2025-02-11 22:47:46,907 [fetril.py] => Task 7, Epoch 6/50 => Loss 2.277, Train_accy 36.62, Test_accy 33.45
+2025-02-11 22:47:47,471 [fetril.py] => Task 7, Epoch 7/50 => Loss 2.275, Train_accy 36.28
+2025-02-11 22:47:48,018 [fetril.py] => Task 7, Epoch 8/50 => Loss 2.274, Train_accy 36.52
+2025-02-11 22:47:48,594 [fetril.py] => Task 7, Epoch 9/50 => Loss 2.267, Train_accy 36.62
+2025-02-11 22:47:49,186 [fetril.py] => Task 7, Epoch 10/50 => Loss 2.265, Train_accy 37.06
+2025-02-11 22:47:50,243 [fetril.py] => Task 7, Epoch 11/50 => Loss 2.261, Train_accy 36.90, Test_accy 34.08
+2025-02-11 22:47:50,815 [fetril.py] => Task 7, Epoch 12/50 => Loss 2.265, Train_accy 37.28
+2025-02-11 22:47:51,355 [fetril.py] => Task 7, Epoch 13/50 => Loss 2.262, Train_accy 37.20
+2025-02-11 22:47:51,960 [fetril.py] => Task 7, Epoch 14/50 => Loss 2.258, Train_accy 37.42
+2025-02-11 22:47:52,517 [fetril.py] => Task 7, Epoch 15/50 => Loss 2.256, Train_accy 37.06
+2025-02-11 22:47:53,556 [fetril.py] => Task 7, Epoch 16/50 => Loss 2.258, Train_accy 37.12, Test_accy 34.33
+2025-02-11 22:47:54,109 [fetril.py] => Task 7, Epoch 17/50 => Loss 2.260, Train_accy 36.77
+2025-02-11 22:47:54,652 [fetril.py] => Task 7, Epoch 18/50 => Loss 2.251, Train_accy 37.28
+2025-02-11 22:47:55,198 [fetril.py] => Task 7, Epoch 19/50 => Loss 2.252, Train_accy 37.47
+2025-02-11 22:47:55,760 [fetril.py] => Task 7, Epoch 20/50 => Loss 2.250, Train_accy 37.65
+2025-02-11 22:47:56,816 [fetril.py] => Task 7, Epoch 21/50 => Loss 2.247, Train_accy 37.76, Test_accy 35.02
+2025-02-11 22:47:57,363 [fetril.py] => Task 7, Epoch 22/50 => Loss 2.247, Train_accy 37.67
+2025-02-11 22:47:57,915 [fetril.py] => Task 7, Epoch 23/50 => Loss 2.246, Train_accy 37.67
+2025-02-11 22:47:58,429 [fetril.py] => Task 7, Epoch 24/50 => Loss 2.246, Train_accy 37.80
+2025-02-11 22:47:58,949 [fetril.py] => Task 7, Epoch 25/50 => Loss 2.241, Train_accy 38.04
+2025-02-11 22:47:59,981 [fetril.py] => Task 7, Epoch 26/50 => Loss 2.239, Train_accy 37.97, Test_accy 34.72
+2025-02-11 22:48:00,542 [fetril.py] => Task 7, Epoch 27/50 => Loss 2.240, Train_accy 38.10
+2025-02-11 22:48:01,079 [fetril.py] => Task 7, Epoch 28/50 => Loss 2.239, Train_accy 38.04
+2025-02-11 22:48:01,627 [fetril.py] => Task 7, Epoch 29/50 => Loss 2.238, Train_accy 38.12
+2025-02-11 22:48:02,203 [fetril.py] => Task 7, Epoch 30/50 => Loss 2.235, Train_accy 38.04
+2025-02-11 22:48:03,254 [fetril.py] => Task 7, Epoch 31/50 => Loss 2.233, Train_accy 38.65, Test_accy 34.88
+2025-02-11 22:48:03,798 [fetril.py] => Task 7, Epoch 32/50 => Loss 2.232, Train_accy 38.14
+2025-02-11 22:48:04,347 [fetril.py] => Task 7, Epoch 33/50 => Loss 2.232, Train_accy 38.64
+2025-02-11 22:48:04,897 [fetril.py] => Task 7, Epoch 34/50 => Loss 2.229, Train_accy 38.68
+2025-02-11 22:48:05,431 [fetril.py] => Task 7, Epoch 35/50 => Loss 2.227, Train_accy 38.74
+2025-02-11 22:48:06,519 [fetril.py] => Task 7, Epoch 36/50 => Loss 2.227, Train_accy 38.60, Test_accy 34.88
+2025-02-11 22:48:07,082 [fetril.py] => Task 7, Epoch 37/50 => Loss 2.224, Train_accy 38.88
+2025-02-11 22:48:07,637 [fetril.py] => Task 7, Epoch 38/50 => Loss 2.227, Train_accy 38.92
+2025-02-11 22:48:08,182 [fetril.py] => Task 7, Epoch 39/50 => Loss 2.224, Train_accy 39.03
+2025-02-11 22:48:08,744 [fetril.py] => Task 7, Epoch 40/50 => Loss 2.224, Train_accy 39.01
+2025-02-11 22:48:09,830 [fetril.py] => Task 7, Epoch 41/50 => Loss 2.221, Train_accy 39.08, Test_accy 35.28
+2025-02-11 22:48:10,393 [fetril.py] => Task 7, Epoch 42/50 => Loss 2.221, Train_accy 38.99
+2025-02-11 22:48:10,958 [fetril.py] => Task 7, Epoch 43/50 => Loss 2.220, Train_accy 39.10
+2025-02-11 22:48:11,512 [fetril.py] => Task 7, Epoch 44/50 => Loss 2.220, Train_accy 39.26
+2025-02-11 22:48:12,048 [fetril.py] => Task 7, Epoch 45/50 => Loss 2.220, Train_accy 39.30
+2025-02-11 22:48:13,099 [fetril.py] => Task 7, Epoch 46/50 => Loss 2.219, Train_accy 39.19, Test_accy 35.17
+2025-02-11 22:48:13,641 [fetril.py] => Task 7, Epoch 47/50 => Loss 2.218, Train_accy 39.24
+2025-02-11 22:48:14,165 [fetril.py] => Task 7, Epoch 48/50 => Loss 2.216, Train_accy 39.22
+2025-02-11 22:48:14,715 [fetril.py] => Task 7, Epoch 49/50 => Loss 2.217, Train_accy 39.28
+2025-02-11 22:48:15,256 [fetril.py] => Task 7, Epoch 50/50 => Loss 2.218, Train_accy 39.22
+2025-02-11 22:48:19,591 [fetril.py] => svm train: acc: 43.97
+2025-02-11 22:48:19,593 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6, 62.87, 52.5, 46.88, 42.93, 39.31, 36.33]
+2025-02-11 22:48:20,090 [trainer.py] => No NME accuracy.
+2025-02-11 22:48:20,090 [trainer.py] => CNN: {'total': 35.3, '00-09': 58.3, '10-19': 23.0, '20-29': 32.5, '30-39': 27.4, 'old': 36.31, 'new': 28.2}
+2025-02-11 22:48:20,091 [trainer.py] => CNN top1 curve: [97.2, 79.3, 63.47, 52.6, 46.12, 43.1, 38.26, 35.3]
+2025-02-11 22:48:20,091 [trainer.py] => CNN top5 curve: [100.0, 98.4, 92.27, 85.2, 78.68, 75.9, 71.54, 68.28]
+
+2025-02-11 22:48:20,091 [trainer.py] => Average Accuracy (CNN): 56.91875
+2025-02-11 22:48:20,091 [trainer.py] => All params: 466754
+2025-02-11 22:48:20,092 [trainer.py] => Trainable params: 2600
+2025-02-11 22:48:20,099 [fetril.py] => Learning on 40-45
+2025-02-11 22:48:20,100 [fetril.py] => All params: 467079
+2025-02-11 22:48:20,100 [fetril.py] => Trainable params: 2925
+2025-02-11 22:48:32,332 [fetril.py] => Task 8, Epoch 1/50 => Loss 2.431, Train_accy 33.87, Test_accy 31.27
+2025-02-11 22:48:32,925 [fetril.py] => Task 8, Epoch 2/50 => Loss 2.362, Train_accy 35.32
+2025-02-11 22:48:33,501 [fetril.py] => Task 8, Epoch 3/50 => Loss 2.340, Train_accy 36.18
+2025-02-11 22:48:34,085 [fetril.py] => Task 8, Epoch 4/50 => Loss 2.328, Train_accy 36.57
+2025-02-11 22:48:34,665 [fetril.py] => Task 8, Epoch 5/50 => Loss 2.318, Train_accy 36.99
+2025-02-11 22:48:35,728 [fetril.py] => Task 8, Epoch 6/50 => Loss 2.312, Train_accy 36.98, Test_accy 32.18
+2025-02-11 22:48:36,308 [fetril.py] => Task 8, Epoch 7/50 => Loss 2.304, Train_accy 37.23
+2025-02-11 22:48:36,896 [fetril.py] => Task 8, Epoch 8/50 => Loss 2.303, Train_accy 37.56
+2025-02-11 22:48:37,493 [fetril.py] => Task 8, Epoch 9/50 => Loss 2.297, Train_accy 37.76
+2025-02-11 22:48:38,079 [fetril.py] => Task 8, Epoch 10/50 => Loss 2.293, Train_accy 37.80
+2025-02-11 22:48:39,217 [fetril.py] => Task 8, Epoch 11/50 => Loss 2.292, Train_accy 37.67, Test_accy 31.80
+2025-02-11 22:48:39,827 [fetril.py] => Task 8, Epoch 12/50 => Loss 2.290, Train_accy 37.94
+2025-02-11 22:48:40,404 [fetril.py] => Task 8, Epoch 13/50 => Loss 2.289, Train_accy 37.96
+2025-02-11 22:48:40,997 [fetril.py] => Task 8, Epoch 14/50 => Loss 2.285, Train_accy 37.91
+2025-02-11 22:48:41,567 [fetril.py] => Task 8, Epoch 15/50 => Loss 2.284, Train_accy 38.06
+2025-02-11 22:48:42,699 [fetril.py] => Task 8, Epoch 16/50 => Loss 2.284, Train_accy 38.13, Test_accy 32.13
+2025-02-11 22:48:43,308 [fetril.py] => Task 8, Epoch 17/50 => Loss 2.281, Train_accy 38.44
+2025-02-11 22:48:43,885 [fetril.py] => Task 8, Epoch 18/50 => Loss 2.280, Train_accy 38.12
+2025-02-11 22:48:44,477 [fetril.py] => Task 8, Epoch 19/50 => Loss 2.280, Train_accy 38.18
+2025-02-11 22:48:45,064 [fetril.py] => Task 8, Epoch 20/50 => Loss 2.277, Train_accy 38.52
+2025-02-11 22:48:46,200 [fetril.py] => Task 8, Epoch 21/50 => Loss 2.274, Train_accy 38.53, Test_accy 31.58
+2025-02-11 22:48:46,791 [fetril.py] => Task 8, Epoch 22/50 => Loss 2.275, Train_accy 38.51
+2025-02-11 22:48:47,368 [fetril.py] => Task 8, Epoch 23/50 => Loss 2.273, Train_accy 38.92
+2025-02-11 22:48:47,968 [fetril.py] => Task 8, Epoch 24/50 => Loss 2.269, Train_accy 38.88
+2025-02-11 22:48:48,545 [fetril.py] => Task 8, Epoch 25/50 => Loss 2.271, Train_accy 38.68
+2025-02-11 22:48:49,659 [fetril.py] => Task 8, Epoch 26/50 => Loss 2.268, Train_accy 38.65, Test_accy 32.62
+2025-02-11 22:48:50,218 [fetril.py] => Task 8, Epoch 27/50 => Loss 2.266, Train_accy 38.98
+2025-02-11 22:48:50,818 [fetril.py] => Task 8, Epoch 28/50 => Loss 2.265, Train_accy 38.78
+2025-02-11 22:48:51,393 [fetril.py] => Task 8, Epoch 29/50 => Loss 2.264, Train_accy 38.86
+2025-02-11 22:48:51,981 [fetril.py] => Task 8, Epoch 30/50 => Loss 2.262, Train_accy 39.14
+2025-02-11 22:48:53,108 [fetril.py] => Task 8, Epoch 31/50 => Loss 2.262, Train_accy 39.03, Test_accy 32.73
+2025-02-11 22:48:53,703 [fetril.py] => Task 8, Epoch 32/50 => Loss 2.261, Train_accy 39.13
+2025-02-11 22:48:54,285 [fetril.py] => Task 8, Epoch 33/50 => Loss 2.259, Train_accy 39.36
+2025-02-11 22:48:54,876 [fetril.py] => Task 8, Epoch 34/50 => Loss 2.258, Train_accy 39.04
+2025-02-11 22:48:55,450 [fetril.py] => Task 8, Epoch 35/50 => Loss 2.257, Train_accy 39.24
+2025-02-11 22:48:56,586 [fetril.py] => Task 8, Epoch 36/50 => Loss 2.254, Train_accy 39.44, Test_accy 32.71
+2025-02-11 22:48:57,176 [fetril.py] => Task 8, Epoch 37/50 => Loss 2.254, Train_accy 39.56
+2025-02-11 22:48:57,747 [fetril.py] => Task 8, Epoch 38/50 => Loss 2.253, Train_accy 39.49
+2025-02-11 22:48:58,335 [fetril.py] => Task 8, Epoch 39/50 => Loss 2.252, Train_accy 39.64
+2025-02-11 22:48:58,946 [fetril.py] => Task 8, Epoch 40/50 => Loss 2.250, Train_accy 39.69
+2025-02-11 22:49:00,093 [fetril.py] => Task 8, Epoch 41/50 => Loss 2.250, Train_accy 39.83, Test_accy 33.22
+2025-02-11 22:49:00,695 [fetril.py] => Task 8, Epoch 42/50 => Loss 2.249, Train_accy 39.80
+2025-02-11 22:49:01,295 [fetril.py] => Task 8, Epoch 43/50 => Loss 2.248, Train_accy 39.84
+2025-02-11 22:49:01,894 [fetril.py] => Task 8, Epoch 44/50 => Loss 2.248, Train_accy 39.80
+2025-02-11 22:49:02,489 [fetril.py] => Task 8, Epoch 45/50 => Loss 2.247, Train_accy 39.93
+2025-02-11 22:49:03,568 [fetril.py] => Task 8, Epoch 46/50 => Loss 2.246, Train_accy 40.00, Test_accy 33.33
+2025-02-11 22:49:04,160 [fetril.py] => Task 8, Epoch 47/50 => Loss 2.246, Train_accy 39.89
+2025-02-11 22:49:04,754 [fetril.py] => Task 8, Epoch 48/50 => Loss 2.245, Train_accy 40.00
+2025-02-11 22:49:05,350 [fetril.py] => Task 8, Epoch 49/50 => Loss 2.245, Train_accy 39.94
+2025-02-11 22:49:05,919 [fetril.py] => Task 8, Epoch 50/50 => Loss 2.245, Train_accy 39.95
+2025-02-11 22:49:11,143 [fetril.py] => svm train: acc: 46.97
+2025-02-11 22:49:11,145 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6, 62.87, 52.5, 46.88, 42.93, 39.31, 36.33, 34.42]
+2025-02-11 22:49:11,688 [trainer.py] => No NME accuracy.
+2025-02-11 22:49:11,688 [trainer.py] => CNN: {'total': 33.44, '00-09': 55.2, '10-19': 21.8, '20-29': 29.2, '30-39': 24.9, '40-49': 38.8, 'old': 32.78, 'new': 38.8}
+2025-02-11 22:49:11,688 [trainer.py] => CNN top1 curve: [97.2, 79.3, 63.47, 52.6, 46.12, 43.1, 38.26, 35.3, 33.44]
+2025-02-11 22:49:11,688 [trainer.py] => CNN top5 curve: [100.0, 98.4, 92.27, 85.2, 78.68, 75.9, 71.54, 68.28, 64.51]
+
+2025-02-11 22:49:11,688 [trainer.py] => Average Accuracy (CNN): 54.31
+2025-02-11 22:49:11,689 [trainer.py] => All params: 467079
+2025-02-11 22:49:11,689 [trainer.py] => Trainable params: 2925
+2025-02-11 22:49:11,696 [fetril.py] => Learning on 45-50
+2025-02-11 22:49:11,697 [fetril.py] => All params: 467404
+2025-02-11 22:49:11,697 [fetril.py] => Trainable params: 3250
+2025-02-11 22:49:25,311 [fetril.py] => Task 9, Epoch 1/50 => Loss 2.481, Train_accy 33.10, Test_accy 29.98
+2025-02-11 22:49:25,952 [fetril.py] => Task 9, Epoch 2/50 => Loss 2.400, Train_accy 35.09
+2025-02-11 22:49:26,587 [fetril.py] => Task 9, Epoch 3/50 => Loss 2.374, Train_accy 35.53
+2025-02-11 22:49:27,213 [fetril.py] => Task 9, Epoch 4/50 => Loss 2.361, Train_accy 36.23
+2025-02-11 22:49:27,853 [fetril.py] => Task 9, Epoch 5/50 => Loss 2.352, Train_accy 36.20
+2025-02-11 22:49:29,036 [fetril.py] => Task 9, Epoch 6/50 => Loss 2.350, Train_accy 36.66, Test_accy 31.86
+2025-02-11 22:49:29,661 [fetril.py] => Task 9, Epoch 7/50 => Loss 2.340, Train_accy 37.15
+2025-02-11 22:49:30,283 [fetril.py] => Task 9, Epoch 8/50 => Loss 2.341, Train_accy 37.00
+2025-02-11 22:49:30,887 [fetril.py] => Task 9, Epoch 9/50 => Loss 2.332, Train_accy 37.22
+2025-02-11 22:49:31,500 [fetril.py] => Task 9, Epoch 10/50 => Loss 2.333, Train_accy 37.35
+2025-02-11 22:49:32,674 [fetril.py] => Task 9, Epoch 11/50 => Loss 2.328, Train_accy 37.28, Test_accy 31.28
+2025-02-11 22:49:33,326 [fetril.py] => Task 9, Epoch 12/50 => Loss 2.327, Train_accy 37.49
+2025-02-11 22:49:33,913 [fetril.py] => Task 9, Epoch 13/50 => Loss 2.325, Train_accy 37.34
+2025-02-11 22:49:34,537 [fetril.py] => Task 9, Epoch 14/50 => Loss 2.326, Train_accy 37.75
+2025-02-11 22:49:35,159 [fetril.py] => Task 9, Epoch 15/50 => Loss 2.324, Train_accy 37.66
+2025-02-11 22:49:36,321 [fetril.py] => Task 9, Epoch 16/50 => Loss 2.320, Train_accy 37.72, Test_accy 31.06
+2025-02-11 22:49:36,984 [fetril.py] => Task 9, Epoch 17/50 => Loss 2.322, Train_accy 37.58
+2025-02-11 22:49:37,610 [fetril.py] => Task 9, Epoch 18/50 => Loss 2.319, Train_accy 37.86
+2025-02-11 22:49:38,216 [fetril.py] => Task 9, Epoch 19/50 => Loss 2.320, Train_accy 37.86
+2025-02-11 22:49:38,844 [fetril.py] => Task 9, Epoch 20/50 => Loss 2.316, Train_accy 38.02
+2025-02-11 22:49:39,982 [fetril.py] => Task 9, Epoch 21/50 => Loss 2.316, Train_accy 37.78, Test_accy 32.30
+2025-02-11 22:49:40,611 [fetril.py] => Task 9, Epoch 22/50 => Loss 2.316, Train_accy 38.10
+2025-02-11 22:49:41,240 [fetril.py] => Task 9, Epoch 23/50 => Loss 2.312, Train_accy 38.28
+2025-02-11 22:49:41,851 [fetril.py] => Task 9, Epoch 24/50 => Loss 2.310, Train_accy 38.28
+2025-02-11 22:49:42,712 [fetril.py] => Task 9, Epoch 25/50 => Loss 2.310, Train_accy 38.13
+2025-02-11 22:49:44,177 [fetril.py] => Task 9, Epoch 26/50 => Loss 2.307, Train_accy 38.45, Test_accy 32.00
+2025-02-11 22:49:44,811 [fetril.py] => Task 9, Epoch 27/50 => Loss 2.308, Train_accy 38.20
+2025-02-11 22:49:45,426 [fetril.py] => Task 9, Epoch 28/50 => Loss 2.305, Train_accy 38.50
+2025-02-11 22:49:46,060 [fetril.py] => Task 9, Epoch 29/50 => Loss 2.304, Train_accy 38.78
+2025-02-11 22:49:46,677 [fetril.py] => Task 9, Epoch 30/50 => Loss 2.303, Train_accy 38.67
+2025-02-11 22:49:47,883 [fetril.py] => Task 9, Epoch 31/50 => Loss 2.302, Train_accy 38.84, Test_accy 31.68
+2025-02-11 22:49:48,533 [fetril.py] => Task 9, Epoch 32/50 => Loss 2.300, Train_accy 38.91
+2025-02-11 22:49:49,161 [fetril.py] => Task 9, Epoch 33/50 => Loss 2.300, Train_accy 38.98
+2025-02-11 22:49:49,773 [fetril.py] => Task 9, Epoch 34/50 => Loss 2.299, Train_accy 39.31
+2025-02-11 22:49:50,376 [fetril.py] => Task 9, Epoch 35/50 => Loss 2.299, Train_accy 38.90
+2025-02-11 22:49:51,534 [fetril.py] => Task 9, Epoch 36/50 => Loss 2.295, Train_accy 39.24, Test_accy 32.50
+2025-02-11 22:49:52,156 [fetril.py] => Task 9, Epoch 37/50 => Loss 2.295, Train_accy 39.40
+2025-02-11 22:49:52,785 [fetril.py] => Task 9, Epoch 38/50 => Loss 2.293, Train_accy 39.51
+2025-02-11 22:49:53,407 [fetril.py] => Task 9, Epoch 39/50 => Loss 2.293, Train_accy 39.47
+2025-02-11 22:49:54,060 [fetril.py] => Task 9, Epoch 40/50 => Loss 2.291, Train_accy 39.64
+2025-02-11 22:49:55,271 [fetril.py] => Task 9, Epoch 41/50 => Loss 2.290, Train_accy 39.66, Test_accy 32.74
+2025-02-11 22:49:55,884 [fetril.py] => Task 9, Epoch 42/50 => Loss 2.289, Train_accy 39.60
+2025-02-11 22:49:56,555 [fetril.py] => Task 9, Epoch 43/50 => Loss 2.288, Train_accy 39.75
+2025-02-11 22:49:57,223 [fetril.py] => Task 9, Epoch 44/50 => Loss 2.289, Train_accy 39.64
+2025-02-11 22:49:57,906 [fetril.py] => Task 9, Epoch 45/50 => Loss 2.288, Train_accy 39.69
+2025-02-11 22:49:59,075 [fetril.py] => Task 9, Epoch 46/50 => Loss 2.287, Train_accy 39.81, Test_accy 32.68
+2025-02-11 22:49:59,726 [fetril.py] => Task 9, Epoch 47/50 => Loss 2.287, Train_accy 39.76
+2025-02-11 22:50:00,371 [fetril.py] => Task 9, Epoch 48/50 => Loss 2.286, Train_accy 39.90
+2025-02-11 22:50:00,986 [fetril.py] => Task 9, Epoch 49/50 => Loss 2.286, Train_accy 39.82
+2025-02-11 22:50:01,621 [fetril.py] => Task 9, Epoch 50/50 => Loss 2.285, Train_accy 39.87
+2025-02-11 22:50:07,715 [fetril.py] => svm train: acc: 45.96
+2025-02-11 22:50:07,717 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6, 62.87, 52.5, 46.88, 42.93, 39.31, 36.33, 34.42, 35.0]
+2025-02-11 22:50:08,273 [trainer.py] => No NME accuracy.
+2025-02-11 22:50:08,273 [trainer.py] => CNN: {'total': 32.64, '00-09': 54.1, '10-19': 21.2, '20-29': 26.2, '30-39': 20.1, '40-49': 41.6, 'old': 30.93, 'new': 48.0}
+2025-02-11 22:50:08,274 [trainer.py] => CNN top1 curve: [97.2, 79.3, 63.47, 52.6, 46.12, 43.1, 38.26, 35.3, 33.44, 32.64]
+2025-02-11 22:50:08,274 [trainer.py] => CNN top5 curve: [100.0, 98.4, 92.27, 85.2, 78.68, 75.9, 71.54, 68.28, 64.51, 63.54]
+
+2025-02-11 22:50:08,274 [trainer.py] => Average Accuracy (CNN): 52.14300000000001
+2025-02-11 22:50:08,275 [trainer.py] => All params: 467404
+2025-02-11 22:50:08,275 [trainer.py] => Trainable params: 3250
+2025-02-11 22:50:08,283 [fetril.py] => Learning on 50-55
+2025-02-11 22:50:08,283 [fetril.py] => All params: 467729
+2025-02-11 22:50:08,283 [fetril.py] => Trainable params: 3575
+2025-02-11 22:50:22,867 [fetril.py] => Task 10, Epoch 1/50 => Loss 2.535, Train_accy 31.99, Test_accy 29.45
+2025-02-11 22:50:23,498 [fetril.py] => Task 10, Epoch 2/50 => Loss 2.461, Train_accy 33.51
+2025-02-11 22:50:24,147 [fetril.py] => Task 10, Epoch 3/50 => Loss 2.439, Train_accy 34.30
+2025-02-11 22:50:24,796 [fetril.py] => Task 10, Epoch 4/50 => Loss 2.432, Train_accy 34.78
+2025-02-11 22:50:25,450 [fetril.py] => Task 10, Epoch 5/50 => Loss 2.425, Train_accy 35.02
+2025-02-11 22:50:26,701 [fetril.py] => Task 10, Epoch 6/50 => Loss 2.420, Train_accy 35.10, Test_accy 30.55
+2025-02-11 22:50:27,406 [fetril.py] => Task 10, Epoch 7/50 => Loss 2.419, Train_accy 34.52
+2025-02-11 22:50:28,096 [fetril.py] => Task 10, Epoch 8/50 => Loss 2.414, Train_accy 35.36
+2025-02-11 22:50:28,797 [fetril.py] => Task 10, Epoch 9/50 => Loss 2.410, Train_accy 35.23
+2025-02-11 22:50:29,452 [fetril.py] => Task 10, Epoch 10/50 => Loss 2.412, Train_accy 35.32
+2025-02-11 22:50:30,678 [fetril.py] => Task 10, Epoch 11/50 => Loss 2.404, Train_accy 35.64, Test_accy 31.38
+2025-02-11 22:50:31,357 [fetril.py] => Task 10, Epoch 12/50 => Loss 2.403, Train_accy 35.65
+2025-02-11 22:50:32,033 [fetril.py] => Task 10, Epoch 13/50 => Loss 2.405, Train_accy 35.60
+2025-02-11 22:50:32,697 [fetril.py] => Task 10, Epoch 14/50 => Loss 2.400, Train_accy 35.73
+2025-02-11 22:50:33,352 [fetril.py] => Task 10, Epoch 15/50 => Loss 2.398, Train_accy 35.79
+2025-02-11 22:50:34,644 [fetril.py] => Task 10, Epoch 16/50 => Loss 2.398, Train_accy 35.50, Test_accy 31.45
+2025-02-11 22:50:35,320 [fetril.py] => Task 10, Epoch 17/50 => Loss 2.398, Train_accy 35.83
+2025-02-11 22:50:35,980 [fetril.py] => Task 10, Epoch 18/50 => Loss 2.396, Train_accy 35.84
+2025-02-11 22:50:36,669 [fetril.py] => Task 10, Epoch 19/50 => Loss 2.396, Train_accy 36.17
+2025-02-11 22:50:37,356 [fetril.py] => Task 10, Epoch 20/50 => Loss 2.393, Train_accy 36.11
+2025-02-11 22:50:38,559 [fetril.py] => Task 10, Epoch 21/50 => Loss 2.391, Train_accy 36.24, Test_accy 31.27
+2025-02-11 22:50:39,212 [fetril.py] => Task 10, Epoch 22/50 => Loss 2.390, Train_accy 36.36
+2025-02-11 22:50:39,866 [fetril.py] => Task 10, Epoch 23/50 => Loss 2.391, Train_accy 36.13
+2025-02-11 22:50:40,494 [fetril.py] => Task 10, Epoch 24/50 => Loss 2.388, Train_accy 36.74
+2025-02-11 22:50:41,130 [fetril.py] => Task 10, Epoch 25/50 => Loss 2.386, Train_accy 36.51
+2025-02-11 22:50:42,351 [fetril.py] => Task 10, Epoch 26/50 => Loss 2.385, Train_accy 36.40, Test_accy 30.60
+2025-02-11 22:50:42,996 [fetril.py] => Task 10, Epoch 27/50 => Loss 2.383, Train_accy 36.48
+2025-02-11 22:50:43,636 [fetril.py] => Task 10, Epoch 28/50 => Loss 2.382, Train_accy 36.90
+2025-02-11 22:50:44,286 [fetril.py] => Task 10, Epoch 29/50 => Loss 2.381, Train_accy 36.84
+2025-02-11 22:50:44,937 [fetril.py] => Task 10, Epoch 30/50 => Loss 2.380, Train_accy 36.85
+2025-02-11 22:50:46,167 [fetril.py] => Task 10, Epoch 31/50 => Loss 2.377, Train_accy 36.75, Test_accy 31.53
+2025-02-11 22:50:46,873 [fetril.py] => Task 10, Epoch 32/50 => Loss 2.376, Train_accy 36.82
+2025-02-11 22:50:47,543 [fetril.py] => Task 10, Epoch 33/50 => Loss 2.376, Train_accy 37.31
+2025-02-11 22:50:48,208 [fetril.py] => Task 10, Epoch 34/50 => Loss 2.374, Train_accy 37.18
+2025-02-11 22:50:48,860 [fetril.py] => Task 10, Epoch 35/50 => Loss 2.373, Train_accy 37.03
+2025-02-11 22:50:50,117 [fetril.py] => Task 10, Epoch 36/50 => Loss 2.372, Train_accy 37.16, Test_accy 32.02
+2025-02-11 22:50:50,767 [fetril.py] => Task 10, Epoch 37/50 => Loss 2.371, Train_accy 37.29
+2025-02-11 22:50:51,422 [fetril.py] => Task 10, Epoch 38/50 => Loss 2.371, Train_accy 37.42
+2025-02-11 22:50:52,068 [fetril.py] => Task 10, Epoch 39/50 => Loss 2.368, Train_accy 37.67
+2025-02-11 22:50:52,703 [fetril.py] => Task 10, Epoch 40/50 => Loss 2.367, Train_accy 37.60
+2025-02-11 22:50:53,937 [fetril.py] => Task 10, Epoch 41/50 => Loss 2.367, Train_accy 37.63, Test_accy 31.96
+2025-02-11 22:50:54,605 [fetril.py] => Task 10, Epoch 42/50 => Loss 2.366, Train_accy 37.55
+2025-02-11 22:50:55,279 [fetril.py] => Task 10, Epoch 43/50 => Loss 2.366, Train_accy 37.65
+2025-02-11 22:50:55,976 [fetril.py] => Task 10, Epoch 44/50 => Loss 2.365, Train_accy 37.70
+2025-02-11 22:50:56,651 [fetril.py] => Task 10, Epoch 45/50 => Loss 2.364, Train_accy 37.75
+2025-02-11 22:50:57,916 [fetril.py] => Task 10, Epoch 46/50 => Loss 2.363, Train_accy 37.67, Test_accy 32.31
+2025-02-11 22:50:58,589 [fetril.py] => Task 10, Epoch 47/50 => Loss 2.363, Train_accy 37.80
+2025-02-11 22:50:59,257 [fetril.py] => Task 10, Epoch 48/50 => Loss 2.362, Train_accy 37.81
+2025-02-11 22:50:59,946 [fetril.py] => Task 10, Epoch 49/50 => Loss 2.362, Train_accy 37.87
+2025-02-11 22:51:00,605 [fetril.py] => Task 10, Epoch 50/50 => Loss 2.362, Train_accy 37.91
+2025-02-11 22:51:08,344 [fetril.py] => svm train: acc: 45.28
+2025-02-11 22:51:08,348 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6, 62.87, 52.5, 46.88, 42.93, 39.31, 36.33, 34.42, 35.0, 33.4]
+2025-02-11 22:51:08,909 [trainer.py] => No NME accuracy.
+2025-02-11 22:51:08,910 [trainer.py] => CNN: {'total': 32.51, '00-09': 52.6, '10-19': 18.7, '20-29': 27.0, '30-39': 20.3, '40-49': 37.4, '50-59': 45.6, 'old': 31.2, 'new': 45.6}
+2025-02-11 22:51:08,910 [trainer.py] => CNN top1 curve: [97.2, 79.3, 63.47, 52.6, 46.12, 43.1, 38.26, 35.3, 33.44, 32.64, 32.51]
+2025-02-11 22:51:08,910 [trainer.py] => CNN top5 curve: [100.0, 98.4, 92.27, 85.2, 78.68, 75.9, 71.54, 68.28, 64.51, 63.54, 63.02]
+
+2025-02-11 22:51:08,910 [trainer.py] => Average Accuracy (CNN): 50.358181818181826
+2025-02-11 22:51:08,911 [trainer.py] => All params: 467729
+2025-02-11 22:51:08,912 [trainer.py] => Trainable params: 3575
+2025-02-11 22:51:08,919 [fetril.py] => Learning on 55-60
+2025-02-11 22:51:08,920 [fetril.py] => All params: 468054
+2025-02-11 22:51:08,920 [fetril.py] => Trainable params: 3900
+2025-02-11 22:51:24,693 [fetril.py] => Task 11, Epoch 1/50 => Loss 2.551, Train_accy 34.56, Test_accy 28.17
+2025-02-11 22:51:25,398 [fetril.py] => Task 11, Epoch 2/50 => Loss 2.491, Train_accy 36.00
+2025-02-11 22:51:26,087 [fetril.py] => Task 11, Epoch 3/50 => Loss 2.469, Train_accy 36.36
+2025-02-11 22:51:26,762 [fetril.py] => Task 11, Epoch 4/50 => Loss 2.456, Train_accy 37.10
+2025-02-11 22:51:27,431 [fetril.py] => Task 11, Epoch 5/50 => Loss 2.446, Train_accy 37.27
+2025-02-11 22:51:28,734 [fetril.py] => Task 11, Epoch 6/50 => Loss 2.442, Train_accy 37.50, Test_accy 26.52
+2025-02-11 22:51:29,397 [fetril.py] => Task 11, Epoch 7/50 => Loss 2.434, Train_accy 37.69
+2025-02-11 22:51:30,086 [fetril.py] => Task 11, Epoch 8/50 => Loss 2.431, Train_accy 37.92
+2025-02-11 22:51:30,754 [fetril.py] => Task 11, Epoch 9/50 => Loss 2.427, Train_accy 37.99
+2025-02-11 22:51:31,453 [fetril.py] => Task 11, Epoch 10/50 => Loss 2.427, Train_accy 37.86
+2025-02-11 22:51:32,737 [fetril.py] => Task 11, Epoch 11/50 => Loss 2.426, Train_accy 38.24, Test_accy 27.72
+2025-02-11 22:51:33,434 [fetril.py] => Task 11, Epoch 12/50 => Loss 2.422, Train_accy 38.08
+2025-02-11 22:51:34,118 [fetril.py] => Task 11, Epoch 13/50 => Loss 2.420, Train_accy 38.37
+2025-02-11 22:51:34,820 [fetril.py] => Task 11, Epoch 14/50 => Loss 2.420, Train_accy 38.21
+2025-02-11 22:51:35,514 [fetril.py] => Task 11, Epoch 15/50 => Loss 2.418, Train_accy 38.42
+2025-02-11 22:51:36,775 [fetril.py] => Task 11, Epoch 16/50 => Loss 2.416, Train_accy 38.72, Test_accy 26.77
+2025-02-11 22:51:37,431 [fetril.py] => Task 11, Epoch 17/50 => Loss 2.414, Train_accy 38.79
+2025-02-11 22:51:38,089 [fetril.py] => Task 11, Epoch 18/50 => Loss 2.414, Train_accy 38.54
+2025-02-11 22:51:38,808 [fetril.py] => Task 11, Epoch 19/50 => Loss 2.412, Train_accy 38.68
+2025-02-11 22:51:39,494 [fetril.py] => Task 11, Epoch 20/50 => Loss 2.412, Train_accy 38.67
+2025-02-11 22:51:40,745 [fetril.py] => Task 11, Epoch 21/50 => Loss 2.409, Train_accy 38.75, Test_accy 28.17
+2025-02-11 22:51:41,462 [fetril.py] => Task 11, Epoch 22/50 => Loss 2.409, Train_accy 38.89
+2025-02-11 22:51:42,145 [fetril.py] => Task 11, Epoch 23/50 => Loss 2.406, Train_accy 38.95
+2025-02-11 22:51:42,825 [fetril.py] => Task 11, Epoch 24/50 => Loss 2.407, Train_accy 38.82
+2025-02-11 22:51:43,506 [fetril.py] => Task 11, Epoch 25/50 => Loss 2.404, Train_accy 39.22
+2025-02-11 22:51:44,763 [fetril.py] => Task 11, Epoch 26/50 => Loss 2.401, Train_accy 39.61, Test_accy 27.77
+2025-02-11 22:51:45,430 [fetril.py] => Task 11, Epoch 27/50 => Loss 2.402, Train_accy 39.27
+2025-02-11 22:51:46,093 [fetril.py] => Task 11, Epoch 28/50 => Loss 2.401, Train_accy 39.38
+2025-02-11 22:51:46,766 [fetril.py] => Task 11, Epoch 29/50 => Loss 2.399, Train_accy 39.52
+2025-02-11 22:51:47,426 [fetril.py] => Task 11, Epoch 30/50 => Loss 2.399, Train_accy 39.58
+2025-02-11 22:51:48,723 [fetril.py] => Task 11, Epoch 31/50 => Loss 2.397, Train_accy 39.75, Test_accy 28.13
+2025-02-11 22:51:49,398 [fetril.py] => Task 11, Epoch 32/50 => Loss 2.395, Train_accy 39.98
+2025-02-11 22:51:50,109 [fetril.py] => Task 11, Epoch 33/50 => Loss 2.395, Train_accy 39.80
+2025-02-11 22:51:50,819 [fetril.py] => Task 11, Epoch 34/50 => Loss 2.394, Train_accy 39.80
+2025-02-11 22:51:51,506 [fetril.py] => Task 11, Epoch 35/50 => Loss 2.392, Train_accy 40.26
+2025-02-11 22:51:52,757 [fetril.py] => Task 11, Epoch 36/50 => Loss 2.391, Train_accy 40.05, Test_accy 28.27
+2025-02-11 22:51:53,447 [fetril.py] => Task 11, Epoch 37/50 => Loss 2.390, Train_accy 40.17
+2025-02-11 22:51:54,135 [fetril.py] => Task 11, Epoch 38/50 => Loss 2.389, Train_accy 40.47
+2025-02-11 22:51:54,827 [fetril.py] => Task 11, Epoch 39/50 => Loss 2.388, Train_accy 40.22
+2025-02-11 22:51:55,539 [fetril.py] => Task 11, Epoch 40/50 => Loss 2.387, Train_accy 40.51
+2025-02-11 22:51:56,768 [fetril.py] => Task 11, Epoch 41/50 => Loss 2.386, Train_accy 40.39, Test_accy 28.15
+2025-02-11 22:51:57,419 [fetril.py] => Task 11, Epoch 42/50 => Loss 2.385, Train_accy 40.55
+2025-02-11 22:51:58,110 [fetril.py] => Task 11, Epoch 43/50 => Loss 2.385, Train_accy 40.53
+2025-02-11 22:51:58,775 [fetril.py] => Task 11, Epoch 44/50 => Loss 2.384, Train_accy 40.56
+2025-02-11 22:51:59,453 [fetril.py] => Task 11, Epoch 45/50 => Loss 2.383, Train_accy 40.67
+2025-02-11 22:52:00,701 [fetril.py] => Task 11, Epoch 46/50 => Loss 2.382, Train_accy 40.62, Test_accy 28.68
+2025-02-11 22:52:01,413 [fetril.py] => Task 11, Epoch 47/50 => Loss 2.383, Train_accy 40.64
+2025-02-11 22:52:02,071 [fetril.py] => Task 11, Epoch 48/50 => Loss 2.382, Train_accy 40.69
+2025-02-11 22:52:02,746 [fetril.py] => Task 11, Epoch 49/50 => Loss 2.382, Train_accy 40.73
+2025-02-11 22:52:03,429 [fetril.py] => Task 11, Epoch 50/50 => Loss 2.381, Train_accy 40.72
+2025-02-11 22:52:11,831 [fetril.py] => svm train: acc: 48.15
+2025-02-11 22:52:11,834 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6, 62.87, 52.5, 46.88, 42.93, 39.31, 36.33, 34.42, 35.0, 33.4, 30.72]
+2025-02-11 22:52:12,428 [trainer.py] => No NME accuracy.
+2025-02-11 22:52:12,429 [trainer.py] => CNN: {'total': 28.65, '00-09': 52.2, '10-19': 18.8, '20-29': 23.8, '30-39': 17.6, '40-49': 35.9, '50-59': 23.6, 'old': 30.22, 'new': 11.4}
+2025-02-11 22:52:12,429 [trainer.py] => CNN top1 curve: [97.2, 79.3, 63.47, 52.6, 46.12, 43.1, 38.26, 35.3, 33.44, 32.64, 32.51, 28.65]
+2025-02-11 22:52:12,430 [trainer.py] => CNN top5 curve: [100.0, 98.4, 92.27, 85.2, 78.68, 75.9, 71.54, 68.28, 64.51, 63.54, 63.02, 58.72]
+
+2025-02-11 22:52:12,431 [trainer.py] => Average Accuracy (CNN): 48.54916666666667
+2025-02-11 22:52:12,432 [trainer.py] => All params: 468054
+2025-02-11 22:52:12,432 [trainer.py] => Trainable params: 3900
+2025-02-11 22:52:12,437 [fetril.py] => Learning on 60-65
+2025-02-11 22:52:12,437 [fetril.py] => All params: 468379
+2025-02-11 22:52:12,438 [fetril.py] => Trainable params: 4225
+2025-02-11 22:52:29,087 [fetril.py] => Task 12, Epoch 1/50 => Loss 2.626, Train_accy 34.11, Test_accy 26.06
+2025-02-11 22:52:29,826 [fetril.py] => Task 12, Epoch 2/50 => Loss 2.577, Train_accy 35.39
+2025-02-11 22:52:30,553 [fetril.py] => Task 12, Epoch 3/50 => Loss 2.562, Train_accy 36.41
+2025-02-11 22:52:31,253 [fetril.py] => Task 12, Epoch 4/50 => Loss 2.552, Train_accy 36.49
+2025-02-11 22:52:31,943 [fetril.py] => Task 12, Epoch 5/50 => Loss 2.549, Train_accy 36.41
+2025-02-11 22:52:33,251 [fetril.py] => Task 12, Epoch 6/50 => Loss 2.546, Train_accy 36.72, Test_accy 26.83
+2025-02-11 22:52:33,945 [fetril.py] => Task 12, Epoch 7/50 => Loss 2.539, Train_accy 36.89
+2025-02-11 22:52:34,664 [fetril.py] => Task 12, Epoch 8/50 => Loss 2.540, Train_accy 36.96
+2025-02-11 22:52:35,406 [fetril.py] => Task 12, Epoch 9/50 => Loss 2.538, Train_accy 36.72
+2025-02-11 22:52:36,111 [fetril.py] => Task 12, Epoch 10/50 => Loss 2.536, Train_accy 37.17
+2025-02-11 22:52:37,439 [fetril.py] => Task 12, Epoch 11/50 => Loss 2.534, Train_accy 37.46, Test_accy 26.34
+2025-02-11 22:52:38,156 [fetril.py] => Task 12, Epoch 12/50 => Loss 2.533, Train_accy 37.28
+2025-02-11 22:52:38,893 [fetril.py] => Task 12, Epoch 13/50 => Loss 2.531, Train_accy 37.51
+2025-02-11 22:52:39,609 [fetril.py] => Task 12, Epoch 14/50 => Loss 2.530, Train_accy 37.43
+2025-02-11 22:52:40,323 [fetril.py] => Task 12, Epoch 15/50 => Loss 2.529, Train_accy 37.56
+2025-02-11 22:52:41,643 [fetril.py] => Task 12, Epoch 16/50 => Loss 2.527, Train_accy 37.44, Test_accy 26.40
+2025-02-11 22:52:42,345 [fetril.py] => Task 12, Epoch 17/50 => Loss 2.527, Train_accy 37.72
+2025-02-11 22:52:43,040 [fetril.py] => Task 12, Epoch 18/50 => Loss 2.528, Train_accy 37.50
+2025-02-11 22:52:43,747 [fetril.py] => Task 12, Epoch 19/50 => Loss 2.523, Train_accy 37.98
+2025-02-11 22:52:44,471 [fetril.py] => Task 12, Epoch 20/50 => Loss 2.522, Train_accy 37.71
+2025-02-11 22:52:45,816 [fetril.py] => Task 12, Epoch 21/50 => Loss 2.522, Train_accy 38.05, Test_accy 26.94
+2025-02-11 22:52:46,505 [fetril.py] => Task 12, Epoch 22/50 => Loss 2.518, Train_accy 38.03
+2025-02-11 22:52:47,221 [fetril.py] => Task 12, Epoch 23/50 => Loss 2.517, Train_accy 38.18
+2025-02-11 22:52:47,951 [fetril.py] => Task 12, Epoch 24/50 => Loss 2.518, Train_accy 38.02
+2025-02-11 22:52:48,665 [fetril.py] => Task 12, Epoch 25/50 => Loss 2.515, Train_accy 38.21
+2025-02-11 22:52:50,007 [fetril.py] => Task 12, Epoch 26/50 => Loss 2.514, Train_accy 38.40, Test_accy 26.85
+2025-02-11 22:52:50,720 [fetril.py] => Task 12, Epoch 27/50 => Loss 2.513, Train_accy 38.45
+2025-02-11 22:52:51,422 [fetril.py] => Task 12, Epoch 28/50 => Loss 2.512, Train_accy 38.70
+2025-02-11 22:52:52,101 [fetril.py] => Task 12, Epoch 29/50 => Loss 2.511, Train_accy 38.71
+2025-02-11 22:52:52,825 [fetril.py] => Task 12, Epoch 30/50 => Loss 2.511, Train_accy 38.47
+2025-02-11 22:52:54,144 [fetril.py] => Task 12, Epoch 31/50 => Loss 2.509, Train_accy 38.73, Test_accy 27.34
+2025-02-11 22:52:54,905 [fetril.py] => Task 12, Epoch 32/50 => Loss 2.508, Train_accy 38.93
+2025-02-11 22:52:55,625 [fetril.py] => Task 12, Epoch 33/50 => Loss 2.505, Train_accy 39.25
+2025-02-11 22:52:56,360 [fetril.py] => Task 12, Epoch 34/50 => Loss 2.505, Train_accy 39.22
+2025-02-11 22:52:57,066 [fetril.py] => Task 12, Epoch 35/50 => Loss 2.503, Train_accy 39.23
+2025-02-11 22:52:58,390 [fetril.py] => Task 12, Epoch 36/50 => Loss 2.502, Train_accy 39.40, Test_accy 27.43
+2025-02-11 22:52:59,126 [fetril.py] => Task 12, Epoch 37/50 => Loss 2.500, Train_accy 39.54
+2025-02-11 22:52:59,831 [fetril.py] => Task 12, Epoch 38/50 => Loss 2.500, Train_accy 39.54
+2025-02-11 22:53:00,536 [fetril.py] => Task 12, Epoch 39/50 => Loss 2.499, Train_accy 39.72
+2025-02-11 22:53:01,225 [fetril.py] => Task 12, Epoch 40/50 => Loss 2.498, Train_accy 39.57
+2025-02-11 22:53:02,565 [fetril.py] => Task 12, Epoch 41/50 => Loss 2.497, Train_accy 39.68, Test_accy 27.45
+2025-02-11 22:53:03,287 [fetril.py] => Task 12, Epoch 42/50 => Loss 2.496, Train_accy 39.80
+2025-02-11 22:53:04,001 [fetril.py] => Task 12, Epoch 43/50 => Loss 2.495, Train_accy 39.90
+2025-02-11 22:53:04,735 [fetril.py] => Task 12, Epoch 44/50 => Loss 2.495, Train_accy 39.98
+2025-02-11 22:53:05,456 [fetril.py] => Task 12, Epoch 45/50 => Loss 2.494, Train_accy 40.01
+2025-02-11 22:53:06,750 [fetril.py] => Task 12, Epoch 46/50 => Loss 2.493, Train_accy 40.14, Test_accy 27.60
+2025-02-11 22:53:07,474 [fetril.py] => Task 12, Epoch 47/50 => Loss 2.493, Train_accy 40.06
+2025-02-11 22:53:08,197 [fetril.py] => Task 12, Epoch 48/50 => Loss 2.492, Train_accy 40.10
+2025-02-11 22:53:08,891 [fetril.py] => Task 12, Epoch 49/50 => Loss 2.492, Train_accy 40.07
+2025-02-11 22:53:09,606 [fetril.py] => Task 12, Epoch 50/50 => Loss 2.492, Train_accy 40.13
+2025-02-11 22:53:20,005 [fetril.py] => svm train: acc: 46.65
+2025-02-11 22:53:20,009 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6, 62.87, 52.5, 46.88, 42.93, 39.31, 36.33, 34.42, 35.0, 33.4, 30.72, 29.34]
+2025-02-11 22:53:20,613 [trainer.py] => No NME accuracy.
+2025-02-11 22:53:20,613 [trainer.py] => CNN: {'total': 27.65, '00-09': 50.8, '10-19': 16.4, '20-29': 23.7, '30-39': 16.2, '40-49': 32.3, '50-59': 23.6, '60-69': 33.4, 'old': 27.17, 'new': 33.4}
+2025-02-11 22:53:20,613 [trainer.py] => CNN top1 curve: [97.2, 79.3, 63.47, 52.6, 46.12, 43.1, 38.26, 35.3, 33.44, 32.64, 32.51, 28.65, 27.65]
+2025-02-11 22:53:20,613 [trainer.py] => CNN top5 curve: [100.0, 98.4, 92.27, 85.2, 78.68, 75.9, 71.54, 68.28, 64.51, 63.54, 63.02, 58.72, 57.03]
+
+2025-02-11 22:53:20,613 [trainer.py] => Average Accuracy (CNN): 46.941538461538464
+2025-02-11 22:53:20,614 [trainer.py] => All params: 468379
+2025-02-11 22:53:20,615 [trainer.py] => Trainable params: 4225
+2025-02-11 22:53:20,623 [fetril.py] => Learning on 65-70
+2025-02-11 22:53:20,624 [fetril.py] => All params: 468704
+2025-02-11 22:53:20,624 [fetril.py] => Trainable params: 4550
+2025-02-11 22:53:38,334 [fetril.py] => Task 13, Epoch 1/50 => Loss 2.782, Train_accy 30.45, Test_accy 25.00
+2025-02-11 22:53:39,068 [fetril.py] => Task 13, Epoch 2/50 => Loss 2.745, Train_accy 31.17
+2025-02-11 22:53:39,839 [fetril.py] => Task 13, Epoch 3/50 => Loss 2.738, Train_accy 31.53
+2025-02-11 22:53:40,574 [fetril.py] => Task 13, Epoch 4/50 => Loss 2.730, Train_accy 31.91
+2025-02-11 22:53:41,342 [fetril.py] => Task 13, Epoch 5/50 => Loss 2.727, Train_accy 32.32
+2025-02-11 22:53:42,775 [fetril.py] => Task 13, Epoch 6/50 => Loss 2.723, Train_accy 32.34, Test_accy 24.87
+2025-02-11 22:53:43,527 [fetril.py] => Task 13, Epoch 7/50 => Loss 2.726, Train_accy 32.31
+2025-02-11 22:53:44,304 [fetril.py] => Task 13, Epoch 8/50 => Loss 2.722, Train_accy 32.38
+2025-02-11 22:53:45,044 [fetril.py] => Task 13, Epoch 9/50 => Loss 2.720, Train_accy 32.34
+2025-02-11 22:53:45,810 [fetril.py] => Task 13, Epoch 10/50 => Loss 2.719, Train_accy 32.19
+2025-02-11 22:53:47,192 [fetril.py] => Task 13, Epoch 11/50 => Loss 2.718, Train_accy 32.47, Test_accy 25.90
+2025-02-11 22:53:47,953 [fetril.py] => Task 13, Epoch 12/50 => Loss 2.720, Train_accy 32.52
+2025-02-11 22:53:48,690 [fetril.py] => Task 13, Epoch 13/50 => Loss 2.717, Train_accy 32.64
+2025-02-11 22:53:49,419 [fetril.py] => Task 13, Epoch 14/50 => Loss 2.713, Train_accy 32.73
+2025-02-11 22:53:50,155 [fetril.py] => Task 13, Epoch 15/50 => Loss 2.716, Train_accy 32.43
+2025-02-11 22:53:51,526 [fetril.py] => Task 13, Epoch 16/50 => Loss 2.712, Train_accy 32.85, Test_accy 26.26
+2025-02-11 22:53:52,284 [fetril.py] => Task 13, Epoch 17/50 => Loss 2.710, Train_accy 33.07
+2025-02-11 22:53:53,011 [fetril.py] => Task 13, Epoch 18/50 => Loss 2.708, Train_accy 32.99
+2025-02-11 22:53:53,773 [fetril.py] => Task 13, Epoch 19/50 => Loss 2.708, Train_accy 33.03
+2025-02-11 22:53:54,546 [fetril.py] => Task 13, Epoch 20/50 => Loss 2.708, Train_accy 33.06
+2025-02-11 22:53:55,971 [fetril.py] => Task 13, Epoch 21/50 => Loss 2.705, Train_accy 33.33, Test_accy 26.47
+2025-02-11 22:53:56,702 [fetril.py] => Task 13, Epoch 22/50 => Loss 2.703, Train_accy 33.43
+2025-02-11 22:53:57,470 [fetril.py] => Task 13, Epoch 23/50 => Loss 2.704, Train_accy 33.28
+2025-02-11 22:53:58,260 [fetril.py] => Task 13, Epoch 24/50 => Loss 2.701, Train_accy 33.38
+2025-02-11 22:53:59,030 [fetril.py] => Task 13, Epoch 25/50 => Loss 2.700, Train_accy 33.39
+2025-02-11 22:54:00,440 [fetril.py] => Task 13, Epoch 26/50 => Loss 2.698, Train_accy 33.57, Test_accy 26.64
+2025-02-11 22:54:01,179 [fetril.py] => Task 13, Epoch 27/50 => Loss 2.699, Train_accy 33.54
+2025-02-11 22:54:01,927 [fetril.py] => Task 13, Epoch 28/50 => Loss 2.696, Train_accy 33.76
+2025-02-11 22:54:02,693 [fetril.py] => Task 13, Epoch 29/50 => Loss 2.694, Train_accy 33.85
+2025-02-11 22:54:03,433 [fetril.py] => Task 13, Epoch 30/50 => Loss 2.693, Train_accy 33.85
+2025-02-11 22:54:04,814 [fetril.py] => Task 13, Epoch 31/50 => Loss 2.693, Train_accy 33.99, Test_accy 26.80
+2025-02-11 22:54:05,563 [fetril.py] => Task 13, Epoch 32/50 => Loss 2.691, Train_accy 34.03
+2025-02-11 22:54:06,358 [fetril.py] => Task 13, Epoch 33/50 => Loss 2.688, Train_accy 34.05
+2025-02-11 22:54:07,084 [fetril.py] => Task 13, Epoch 34/50 => Loss 2.688, Train_accy 34.17
+2025-02-11 22:54:07,829 [fetril.py] => Task 13, Epoch 35/50 => Loss 2.686, Train_accy 34.31
+2025-02-11 22:54:09,220 [fetril.py] => Task 13, Epoch 36/50 => Loss 2.686, Train_accy 34.39, Test_accy 26.76
+2025-02-11 22:54:09,957 [fetril.py] => Task 13, Epoch 37/50 => Loss 2.684, Train_accy 34.53
+2025-02-11 22:54:10,686 [fetril.py] => Task 13, Epoch 38/50 => Loss 2.683, Train_accy 34.66
+2025-02-11 22:54:11,455 [fetril.py] => Task 13, Epoch 39/50 => Loss 2.682, Train_accy 34.65
+2025-02-11 22:54:12,186 [fetril.py] => Task 13, Epoch 40/50 => Loss 2.681, Train_accy 34.81
+2025-02-11 22:54:13,564 [fetril.py] => Task 13, Epoch 41/50 => Loss 2.680, Train_accy 34.72, Test_accy 26.91
+2025-02-11 22:54:14,343 [fetril.py] => Task 13, Epoch 42/50 => Loss 2.680, Train_accy 34.69
+2025-02-11 22:54:15,091 [fetril.py] => Task 13, Epoch 43/50 => Loss 2.679, Train_accy 34.93
+2025-02-11 22:54:15,839 [fetril.py] => Task 13, Epoch 44/50 => Loss 2.677, Train_accy 34.94
+2025-02-11 22:54:16,565 [fetril.py] => Task 13, Epoch 45/50 => Loss 2.678, Train_accy 34.96
+2025-02-11 22:54:17,959 [fetril.py] => Task 13, Epoch 46/50 => Loss 2.677, Train_accy 35.03, Test_accy 27.19
+2025-02-11 22:54:18,694 [fetril.py] => Task 13, Epoch 47/50 => Loss 2.676, Train_accy 35.03
+2025-02-11 22:54:19,429 [fetril.py] => Task 13, Epoch 48/50 => Loss 2.676, Train_accy 35.11
+2025-02-11 22:54:20,208 [fetril.py] => Task 13, Epoch 49/50 => Loss 2.675, Train_accy 35.07
+2025-02-11 22:54:20,954 [fetril.py] => Task 13, Epoch 50/50 => Loss 2.675, Train_accy 35.12
+2025-02-11 22:54:34,203 [fetril.py] => svm train: acc: 42.22
+2025-02-11 22:54:34,208 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6, 62.87, 52.5, 46.88, 42.93, 39.31, 36.33, 34.42, 35.0, 33.4, 30.72, 29.34, 29.07]
+2025-02-11 22:54:34,864 [trainer.py] => No NME accuracy.
+2025-02-11 22:54:34,865 [trainer.py] => CNN: {'total': 27.31, '00-09': 51.9, '10-19': 16.1, '20-29': 20.5, '30-39': 17.3, '40-49': 33.8, '50-59': 21.5, '60-69': 30.1, 'old': 26.92, 'new': 32.4}
+2025-02-11 22:54:34,865 [trainer.py] => CNN top1 curve: [97.2, 79.3, 63.47, 52.6, 46.12, 43.1, 38.26, 35.3, 33.44, 32.64, 32.51, 28.65, 27.65, 27.31]
+2025-02-11 22:54:34,865 [trainer.py] => CNN top5 curve: [100.0, 98.4, 92.27, 85.2, 78.68, 75.9, 71.54, 68.28, 64.51, 63.54, 63.02, 58.72, 57.03, 55.7]
+
+2025-02-11 22:54:34,865 [trainer.py] => Average Accuracy (CNN): 45.53928571428571
+2025-02-11 22:54:34,866 [trainer.py] => All params: 468704
+2025-02-11 22:54:34,867 [trainer.py] => Trainable params: 4550
+2025-02-11 22:54:34,874 [fetril.py] => Learning on 70-75
+2025-02-11 22:54:34,874 [fetril.py] => All params: 469029
+2025-02-11 22:54:34,875 [fetril.py] => Trainable params: 4875
+2025-02-11 22:54:53,656 [fetril.py] => Task 14, Epoch 1/50 => Loss 2.876, Train_accy 29.42, Test_accy 24.60
+2025-02-11 22:54:54,470 [fetril.py] => Task 14, Epoch 2/50 => Loss 2.843, Train_accy 30.48
+2025-02-11 22:54:55,305 [fetril.py] => Task 14, Epoch 3/50 => Loss 2.832, Train_accy 30.30
+2025-02-11 22:54:56,108 [fetril.py] => Task 14, Epoch 4/50 => Loss 2.827, Train_accy 30.83
+2025-02-11 22:54:56,876 [fetril.py] => Task 14, Epoch 5/50 => Loss 2.824, Train_accy 30.63
+2025-02-11 22:54:58,257 [fetril.py] => Task 14, Epoch 6/50 => Loss 2.821, Train_accy 30.79, Test_accy 25.25
+2025-02-11 22:54:59,026 [fetril.py] => Task 14, Epoch 7/50 => Loss 2.821, Train_accy 30.73
+2025-02-11 22:54:59,834 [fetril.py] => Task 14, Epoch 8/50 => Loss 2.818, Train_accy 30.98
+2025-02-11 22:55:00,626 [fetril.py] => Task 14, Epoch 9/50 => Loss 2.817, Train_accy 30.95
+2025-02-11 22:55:01,430 [fetril.py] => Task 14, Epoch 10/50 => Loss 2.813, Train_accy 31.21
+2025-02-11 22:55:02,947 [fetril.py] => Task 14, Epoch 11/50 => Loss 2.815, Train_accy 31.18, Test_accy 25.69
+2025-02-11 22:55:03,759 [fetril.py] => Task 14, Epoch 12/50 => Loss 2.814, Train_accy 31.08
+2025-02-11 22:55:04,542 [fetril.py] => Task 14, Epoch 13/50 => Loss 2.813, Train_accy 31.22
+2025-02-11 22:55:05,309 [fetril.py] => Task 14, Epoch 14/50 => Loss 2.810, Train_accy 31.41
+2025-02-11 22:55:06,068 [fetril.py] => Task 14, Epoch 15/50 => Loss 2.808, Train_accy 31.60
+2025-02-11 22:55:07,525 [fetril.py] => Task 14, Epoch 16/50 => Loss 2.808, Train_accy 31.56, Test_accy 24.87
+2025-02-11 22:55:08,307 [fetril.py] => Task 14, Epoch 17/50 => Loss 2.806, Train_accy 31.59
+2025-02-11 22:55:09,095 [fetril.py] => Task 14, Epoch 18/50 => Loss 2.805, Train_accy 31.69
+2025-02-11 22:55:09,871 [fetril.py] => Task 14, Epoch 19/50 => Loss 2.805, Train_accy 31.50
+2025-02-11 22:55:10,655 [fetril.py] => Task 14, Epoch 20/50 => Loss 2.803, Train_accy 31.79
+2025-02-11 22:55:12,079 [fetril.py] => Task 14, Epoch 21/50 => Loss 2.801, Train_accy 31.83, Test_accy 26.17
+2025-02-11 22:55:12,861 [fetril.py] => Task 14, Epoch 22/50 => Loss 2.800, Train_accy 31.94
+2025-02-11 22:55:13,648 [fetril.py] => Task 14, Epoch 23/50 => Loss 2.798, Train_accy 32.15
+2025-02-11 22:55:14,409 [fetril.py] => Task 14, Epoch 24/50 => Loss 2.797, Train_accy 32.19
+2025-02-11 22:55:15,178 [fetril.py] => Task 14, Epoch 25/50 => Loss 2.796, Train_accy 32.13
+2025-02-11 22:55:16,648 [fetril.py] => Task 14, Epoch 26/50 => Loss 2.794, Train_accy 32.46, Test_accy 25.89
+2025-02-11 22:55:17,448 [fetril.py] => Task 14, Epoch 27/50 => Loss 2.792, Train_accy 32.37
+2025-02-11 22:55:18,243 [fetril.py] => Task 14, Epoch 28/50 => Loss 2.791, Train_accy 32.31
+2025-02-11 22:55:19,060 [fetril.py] => Task 14, Epoch 29/50 => Loss 2.790, Train_accy 32.46
+2025-02-11 22:55:19,857 [fetril.py] => Task 14, Epoch 30/50 => Loss 2.788, Train_accy 32.56
+2025-02-11 22:55:21,275 [fetril.py] => Task 14, Epoch 31/50 => Loss 2.787, Train_accy 32.53, Test_accy 26.15
+2025-02-11 22:55:22,047 [fetril.py] => Task 14, Epoch 32/50 => Loss 2.785, Train_accy 32.92
+2025-02-11 22:55:22,866 [fetril.py] => Task 14, Epoch 33/50 => Loss 2.783, Train_accy 32.73
+2025-02-11 22:55:23,644 [fetril.py] => Task 14, Epoch 34/50 => Loss 2.783, Train_accy 33.09
+2025-02-11 22:55:24,445 [fetril.py] => Task 14, Epoch 35/50 => Loss 2.782, Train_accy 32.92
+2025-02-11 22:55:25,897 [fetril.py] => Task 14, Epoch 36/50 => Loss 2.781, Train_accy 32.96, Test_accy 26.43
+2025-02-11 22:55:26,640 [fetril.py] => Task 14, Epoch 37/50 => Loss 2.780, Train_accy 33.27
+2025-02-11 22:55:27,433 [fetril.py] => Task 14, Epoch 38/50 => Loss 2.778, Train_accy 33.15
+2025-02-11 22:55:28,225 [fetril.py] => Task 14, Epoch 39/50 => Loss 2.777, Train_accy 33.39
+2025-02-11 22:55:29,027 [fetril.py] => Task 14, Epoch 40/50 => Loss 2.776, Train_accy 33.50
+2025-02-11 22:55:30,509 [fetril.py] => Task 14, Epoch 41/50 => Loss 2.775, Train_accy 33.38, Test_accy 26.48
+2025-02-11 22:55:31,301 [fetril.py] => Task 14, Epoch 42/50 => Loss 2.774, Train_accy 33.60
+2025-02-11 22:55:32,088 [fetril.py] => Task 14, Epoch 43/50 => Loss 2.773, Train_accy 33.73
+2025-02-11 22:55:32,871 [fetril.py] => Task 14, Epoch 44/50 => Loss 2.773, Train_accy 33.49
+2025-02-11 22:55:33,654 [fetril.py] => Task 14, Epoch 45/50 => Loss 2.772, Train_accy 33.82
+2025-02-11 22:55:35,099 [fetril.py] => Task 14, Epoch 46/50 => Loss 2.771, Train_accy 33.81, Test_accy 26.61
+2025-02-11 22:55:35,861 [fetril.py] => Task 14, Epoch 47/50 => Loss 2.771, Train_accy 33.74
+2025-02-11 22:55:36,688 [fetril.py] => Task 14, Epoch 48/50 => Loss 2.770, Train_accy 33.89
+2025-02-11 22:55:37,516 [fetril.py] => Task 14, Epoch 49/50 => Loss 2.770, Train_accy 33.88
+2025-02-11 22:55:38,277 [fetril.py] => Task 14, Epoch 50/50 => Loss 2.770, Train_accy 33.89
+2025-02-11 22:55:53,217 [fetril.py] => svm train: acc: 41.07
+2025-02-11 22:55:53,221 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6, 62.87, 52.5, 46.88, 42.93, 39.31, 36.33, 34.42, 35.0, 33.4, 30.72, 29.34, 29.07, 28.35]
+2025-02-11 22:55:53,902 [trainer.py] => No NME accuracy.
+2025-02-11 22:55:53,902 [trainer.py] => CNN: {'total': 26.65, '00-09': 51.6, '10-19': 14.3, '20-29': 20.1, '30-39': 14.5, '40-49': 31.9, '50-59': 22.8, '60-69': 29.3, '70-79': 30.8, 'old': 26.36, 'new': 30.8}
+2025-02-11 22:55:53,902 [trainer.py] => CNN top1 curve: [97.2, 79.3, 63.47, 52.6, 46.12, 43.1, 38.26, 35.3, 33.44, 32.64, 32.51, 28.65, 27.65, 27.31, 26.65]
+2025-02-11 22:55:53,902 [trainer.py] => CNN top5 curve: [100.0, 98.4, 92.27, 85.2, 78.68, 75.9, 71.54, 68.28, 64.51, 63.54, 63.02, 58.72, 57.03, 55.7, 54.27]
+
+2025-02-11 22:55:53,903 [trainer.py] => Average Accuracy (CNN): 44.279999999999994
+2025-02-11 22:55:53,904 [trainer.py] => All params: 469029
+2025-02-11 22:55:53,904 [trainer.py] => Trainable params: 4875
+2025-02-11 22:55:53,912 [fetril.py] => Learning on 75-80
+2025-02-11 22:55:53,912 [fetril.py] => All params: 469354
+2025-02-11 22:55:53,912 [fetril.py] => Trainable params: 5200
+2025-02-11 22:56:13,851 [fetril.py] => Task 15, Epoch 1/50 => Loss 2.997, Train_accy 25.56, Test_accy 23.55
+2025-02-11 22:56:14,681 [fetril.py] => Task 15, Epoch 2/50 => Loss 2.945, Train_accy 26.42
+2025-02-11 22:56:15,502 [fetril.py] => Task 15, Epoch 3/50 => Loss 2.927, Train_accy 26.74
+2025-02-11 22:56:16,318 [fetril.py] => Task 15, Epoch 4/50 => Loss 2.914, Train_accy 27.28
+2025-02-11 22:56:17,147 [fetril.py] => Task 15, Epoch 5/50 => Loss 2.910, Train_accy 27.36
+2025-02-11 22:56:18,612 [fetril.py] => Task 15, Epoch 6/50 => Loss 2.904, Train_accy 27.50, Test_accy 24.15
+2025-02-11 22:56:19,444 [fetril.py] => Task 15, Epoch 7/50 => Loss 2.902, Train_accy 27.16
+2025-02-11 22:56:20,249 [fetril.py] => Task 15, Epoch 8/50 => Loss 2.900, Train_accy 27.59
+2025-02-11 22:56:21,060 [fetril.py] => Task 15, Epoch 9/50 => Loss 2.899, Train_accy 27.42
+2025-02-11 22:56:21,860 [fetril.py] => Task 15, Epoch 10/50 => Loss 2.897, Train_accy 27.48
+2025-02-11 22:56:23,318 [fetril.py] => Task 15, Epoch 11/50 => Loss 2.894, Train_accy 27.70, Test_accy 23.71
+2025-02-11 22:56:24,140 [fetril.py] => Task 15, Epoch 12/50 => Loss 2.893, Train_accy 27.68
+2025-02-11 22:56:24,933 [fetril.py] => Task 15, Epoch 13/50 => Loss 2.891, Train_accy 27.88
+2025-02-11 22:56:25,761 [fetril.py] => Task 15, Epoch 14/50 => Loss 2.891, Train_accy 27.80
+2025-02-11 22:56:26,584 [fetril.py] => Task 15, Epoch 15/50 => Loss 2.890, Train_accy 28.02
+2025-02-11 22:56:28,037 [fetril.py] => Task 15, Epoch 16/50 => Loss 2.889, Train_accy 28.04, Test_accy 23.74
+2025-02-11 22:56:28,874 [fetril.py] => Task 15, Epoch 17/50 => Loss 2.886, Train_accy 27.90
+2025-02-11 22:56:29,666 [fetril.py] => Task 15, Epoch 18/50 => Loss 2.886, Train_accy 28.04
+2025-02-11 22:56:30,477 [fetril.py] => Task 15, Epoch 19/50 => Loss 2.886, Train_accy 28.13
+2025-02-11 22:56:31,315 [fetril.py] => Task 15, Epoch 20/50 => Loss 2.881, Train_accy 28.55
+2025-02-11 22:56:32,860 [fetril.py] => Task 15, Epoch 21/50 => Loss 2.881, Train_accy 28.19, Test_accy 23.94
+2025-02-11 22:56:33,691 [fetril.py] => Task 15, Epoch 22/50 => Loss 2.880, Train_accy 28.40
+2025-02-11 22:56:34,502 [fetril.py] => Task 15, Epoch 23/50 => Loss 2.878, Train_accy 28.42
+2025-02-11 22:56:35,337 [fetril.py] => Task 15, Epoch 24/50 => Loss 2.876, Train_accy 28.60
+2025-02-11 22:56:36,174 [fetril.py] => Task 15, Epoch 25/50 => Loss 2.876, Train_accy 28.78
+2025-02-11 22:56:37,689 [fetril.py] => Task 15, Epoch 26/50 => Loss 2.873, Train_accy 28.72, Test_accy 24.68
+2025-02-11 22:56:38,527 [fetril.py] => Task 15, Epoch 27/50 => Loss 2.872, Train_accy 28.90
+2025-02-11 22:56:39,368 [fetril.py] => Task 15, Epoch 28/50 => Loss 2.871, Train_accy 29.01
+2025-02-11 22:56:40,236 [fetril.py] => Task 15, Epoch 29/50 => Loss 2.870, Train_accy 28.86
+2025-02-11 22:56:41,079 [fetril.py] => Task 15, Epoch 30/50 => Loss 2.868, Train_accy 29.06
+2025-02-11 22:56:42,592 [fetril.py] => Task 15, Epoch 31/50 => Loss 2.866, Train_accy 29.32, Test_accy 24.75
+2025-02-11 22:56:43,445 [fetril.py] => Task 15, Epoch 32/50 => Loss 2.866, Train_accy 29.27
+2025-02-11 22:56:44,305 [fetril.py] => Task 15, Epoch 33/50 => Loss 2.863, Train_accy 29.25
+2025-02-11 22:56:45,167 [fetril.py] => Task 15, Epoch 34/50 => Loss 2.862, Train_accy 29.40
+2025-02-11 22:56:46,008 [fetril.py] => Task 15, Epoch 35/50 => Loss 2.860, Train_accy 29.41
+2025-02-11 22:56:47,552 [fetril.py] => Task 15, Epoch 36/50 => Loss 2.860, Train_accy 29.61, Test_accy 25.08
+2025-02-11 22:56:48,420 [fetril.py] => Task 15, Epoch 37/50 => Loss 2.858, Train_accy 29.68
+2025-02-11 22:56:49,263 [fetril.py] => Task 15, Epoch 38/50 => Loss 2.857, Train_accy 29.65
+2025-02-11 22:56:50,119 [fetril.py] => Task 15, Epoch 39/50 => Loss 2.856, Train_accy 29.71
+2025-02-11 22:56:50,967 [fetril.py] => Task 15, Epoch 40/50 => Loss 2.855, Train_accy 29.80
+2025-02-11 22:56:52,516 [fetril.py] => Task 15, Epoch 41/50 => Loss 2.854, Train_accy 29.90, Test_accy 25.05
+2025-02-11 22:56:53,414 [fetril.py] => Task 15, Epoch 42/50 => Loss 2.853, Train_accy 30.09
+2025-02-11 22:56:54,289 [fetril.py] => Task 15, Epoch 43/50 => Loss 2.852, Train_accy 30.00
+2025-02-11 22:56:55,117 [fetril.py] => Task 15, Epoch 44/50 => Loss 2.851, Train_accy 30.04
+2025-02-11 22:56:55,991 [fetril.py] => Task 15, Epoch 45/50 => Loss 2.850, Train_accy 30.06
+2025-02-11 22:56:57,521 [fetril.py] => Task 15, Epoch 46/50 => Loss 2.850, Train_accy 30.12, Test_accy 25.25
+2025-02-11 22:56:58,383 [fetril.py] => Task 15, Epoch 47/50 => Loss 2.849, Train_accy 30.15
+2025-02-11 22:56:59,252 [fetril.py] => Task 15, Epoch 48/50 => Loss 2.849, Train_accy 30.23
+2025-02-11 22:57:00,088 [fetril.py] => Task 15, Epoch 49/50 => Loss 2.848, Train_accy 30.26
+2025-02-11 22:57:00,921 [fetril.py] => Task 15, Epoch 50/50 => Loss 2.848, Train_accy 30.22
+2025-02-11 22:57:18,922 [fetril.py] => svm train: acc: 39.03
+2025-02-11 22:57:18,933 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6, 62.87, 52.5, 46.88, 42.93, 39.31, 36.33, 34.42, 35.0, 33.4, 30.72, 29.34, 29.07, 28.35, 27.49]
+2025-02-11 22:57:19,618 [trainer.py] => No NME accuracy.
+2025-02-11 22:57:19,619 [trainer.py] => CNN: {'total': 25.28, '00-09': 50.7, '10-19': 13.3, '20-29': 18.8, '30-39': 15.0, '40-49': 30.7, '50-59': 18.8, '60-69': 28.0, '70-79': 26.9, 'old': 25.31, 'new': 24.8}
+2025-02-11 22:57:19,619 [trainer.py] => CNN top1 curve: [97.2, 79.3, 63.47, 52.6, 46.12, 43.1, 38.26, 35.3, 33.44, 32.64, 32.51, 28.65, 27.65, 27.31, 26.65, 25.28]
+2025-02-11 22:57:19,619 [trainer.py] => CNN top5 curve: [100.0, 98.4, 92.27, 85.2, 78.68, 75.9, 71.54, 68.28, 64.51, 63.54, 63.02, 58.72, 57.03, 55.7, 54.27, 53.15]
+
+2025-02-11 22:57:19,619 [trainer.py] => Average Accuracy (CNN): 43.092499999999994
+2025-02-11 22:57:19,620 [trainer.py] => All params: 469354
+2025-02-11 22:57:19,621 [trainer.py] => Trainable params: 5200
+2025-02-11 22:57:19,627 [fetril.py] => Learning on 80-85
+2025-02-11 22:57:19,628 [fetril.py] => All params: 469679
+2025-02-11 22:57:19,628 [fetril.py] => Trainable params: 5525
+2025-02-11 22:57:40,669 [fetril.py] => Task 16, Epoch 1/50 => Loss 3.103, Train_accy 24.49, Test_accy 22.67
+2025-02-11 22:57:41,514 [fetril.py] => Task 16, Epoch 2/50 => Loss 3.002, Train_accy 26.06
+2025-02-11 22:57:42,362 [fetril.py] => Task 16, Epoch 3/50 => Loss 2.979, Train_accy 27.10
+2025-02-11 22:57:43,241 [fetril.py] => Task 16, Epoch 4/50 => Loss 2.959, Train_accy 27.53
+2025-02-11 22:57:44,105 [fetril.py] => Task 16, Epoch 5/50 => Loss 2.952, Train_accy 27.63
+2025-02-11 22:57:45,659 [fetril.py] => Task 16, Epoch 6/50 => Loss 2.943, Train_accy 27.65, Test_accy 22.82
+2025-02-11 22:57:46,536 [fetril.py] => Task 16, Epoch 7/50 => Loss 2.938, Train_accy 28.05
+2025-02-11 22:57:47,426 [fetril.py] => Task 16, Epoch 8/50 => Loss 2.939, Train_accy 28.04
+2025-02-11 22:57:48,329 [fetril.py] => Task 16, Epoch 9/50 => Loss 2.930, Train_accy 28.07
+2025-02-11 22:57:49,176 [fetril.py] => Task 16, Epoch 10/50 => Loss 2.930, Train_accy 28.25
+2025-02-11 22:57:50,738 [fetril.py] => Task 16, Epoch 11/50 => Loss 2.930, Train_accy 28.43, Test_accy 22.89
+2025-02-11 22:57:51,608 [fetril.py] => Task 16, Epoch 12/50 => Loss 2.932, Train_accy 28.19
+2025-02-11 22:57:52,472 [fetril.py] => Task 16, Epoch 13/50 => Loss 2.926, Train_accy 28.31
+2025-02-11 22:57:53,361 [fetril.py] => Task 16, Epoch 14/50 => Loss 2.926, Train_accy 28.55
+2025-02-11 22:57:54,226 [fetril.py] => Task 16, Epoch 15/50 => Loss 2.923, Train_accy 28.57
+2025-02-11 22:57:55,789 [fetril.py] => Task 16, Epoch 16/50 => Loss 2.917, Train_accy 28.72, Test_accy 22.21
+2025-02-11 22:57:56,668 [fetril.py] => Task 16, Epoch 17/50 => Loss 2.919, Train_accy 28.47
+2025-02-11 22:57:57,525 [fetril.py] => Task 16, Epoch 18/50 => Loss 2.921, Train_accy 28.84
+2025-02-11 22:57:58,389 [fetril.py] => Task 16, Epoch 19/50 => Loss 2.921, Train_accy 28.78
+2025-02-11 22:57:59,262 [fetril.py] => Task 16, Epoch 20/50 => Loss 2.916, Train_accy 28.83
+2025-02-11 22:58:00,888 [fetril.py] => Task 16, Epoch 21/50 => Loss 2.914, Train_accy 28.89, Test_accy 22.93
+2025-02-11 22:58:01,782 [fetril.py] => Task 16, Epoch 22/50 => Loss 2.915, Train_accy 29.29
+2025-02-11 22:58:02,664 [fetril.py] => Task 16, Epoch 23/50 => Loss 2.909, Train_accy 28.97
+2025-02-11 22:58:03,500 [fetril.py] => Task 16, Epoch 24/50 => Loss 2.910, Train_accy 29.16
+2025-02-11 22:58:04,380 [fetril.py] => Task 16, Epoch 25/50 => Loss 2.904, Train_accy 29.46
+2025-02-11 22:58:05,912 [fetril.py] => Task 16, Epoch 26/50 => Loss 2.906, Train_accy 29.39, Test_accy 23.53
+2025-02-11 22:58:06,799 [fetril.py] => Task 16, Epoch 27/50 => Loss 2.905, Train_accy 29.52
+2025-02-11 22:58:07,672 [fetril.py] => Task 16, Epoch 28/50 => Loss 2.902, Train_accy 29.84
+2025-02-11 22:58:08,518 [fetril.py] => Task 16, Epoch 29/50 => Loss 2.898, Train_accy 29.83
+2025-02-11 22:58:09,421 [fetril.py] => Task 16, Epoch 30/50 => Loss 2.899, Train_accy 30.02
+2025-02-11 22:58:10,964 [fetril.py] => Task 16, Epoch 31/50 => Loss 2.896, Train_accy 29.89, Test_accy 23.62
+2025-02-11 22:58:11,834 [fetril.py] => Task 16, Epoch 32/50 => Loss 2.896, Train_accy 29.99
+2025-02-11 22:58:12,726 [fetril.py] => Task 16, Epoch 33/50 => Loss 2.898, Train_accy 29.96
+2025-02-11 22:58:13,610 [fetril.py] => Task 16, Epoch 34/50 => Loss 2.893, Train_accy 30.33
+2025-02-11 22:58:14,506 [fetril.py] => Task 16, Epoch 35/50 => Loss 2.889, Train_accy 30.38
+2025-02-11 22:58:16,064 [fetril.py] => Task 16, Epoch 36/50 => Loss 2.888, Train_accy 30.36, Test_accy 24.11
+2025-02-11 22:58:16,929 [fetril.py] => Task 16, Epoch 37/50 => Loss 2.891, Train_accy 30.59
+2025-02-11 22:58:17,825 [fetril.py] => Task 16, Epoch 38/50 => Loss 2.888, Train_accy 30.67
+2025-02-11 22:58:18,742 [fetril.py] => Task 16, Epoch 39/50 => Loss 2.884, Train_accy 30.65
+2025-02-11 22:58:19,638 [fetril.py] => Task 16, Epoch 40/50 => Loss 2.886, Train_accy 30.66
+2025-02-11 22:58:21,206 [fetril.py] => Task 16, Epoch 41/50 => Loss 2.885, Train_accy 30.74, Test_accy 24.20
+2025-02-11 22:58:22,040 [fetril.py] => Task 16, Epoch 42/50 => Loss 2.883, Train_accy 30.99
+2025-02-11 22:58:22,906 [fetril.py] => Task 16, Epoch 43/50 => Loss 2.882, Train_accy 30.92
+2025-02-11 22:58:23,804 [fetril.py] => Task 16, Epoch 44/50 => Loss 2.883, Train_accy 31.08
+2025-02-11 22:58:24,702 [fetril.py] => Task 16, Epoch 45/50 => Loss 2.881, Train_accy 31.11
+2025-02-11 22:58:26,275 [fetril.py] => Task 16, Epoch 46/50 => Loss 2.882, Train_accy 31.08, Test_accy 24.38
+2025-02-11 22:58:27,161 [fetril.py] => Task 16, Epoch 47/50 => Loss 2.878, Train_accy 31.15
+2025-02-11 22:58:28,044 [fetril.py] => Task 16, Epoch 48/50 => Loss 2.877, Train_accy 31.11
+2025-02-11 22:58:28,896 [fetril.py] => Task 16, Epoch 49/50 => Loss 2.880, Train_accy 31.16
+2025-02-11 22:58:29,750 [fetril.py] => Task 16, Epoch 50/50 => Loss 2.879, Train_accy 31.15
+2025-02-11 22:58:50,103 [fetril.py] => svm train: acc: 41.51
+2025-02-11 22:58:50,109 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6, 62.87, 52.5, 46.88, 42.93, 39.31, 36.33, 34.42, 35.0, 33.4, 30.72, 29.34, 29.07, 28.35, 27.49, 25.34]
+2025-02-11 22:58:50,798 [trainer.py] => No NME accuracy.
+2025-02-11 22:58:50,798 [trainer.py] => CNN: {'total': 24.39, '00-09': 51.7, '10-19': 12.9, '20-29': 15.3, '30-39': 13.9, '40-49': 29.4, '50-59': 18.7, '60-69': 24.4, '70-79': 24.7, '80-89': 32.6, 'old': 23.88, 'new': 32.6}
+2025-02-11 22:58:50,798 [trainer.py] => CNN top1 curve: [97.2, 79.3, 63.47, 52.6, 46.12, 43.1, 38.26, 35.3, 33.44, 32.64, 32.51, 28.65, 27.65, 27.31, 26.65, 25.28, 24.39]
+2025-02-11 22:58:50,798 [trainer.py] => CNN top5 curve: [100.0, 98.4, 92.27, 85.2, 78.68, 75.9, 71.54, 68.28, 64.51, 63.54, 63.02, 58.72, 57.03, 55.7, 54.27, 53.15, 51.38]
+
+2025-02-11 22:58:50,798 [trainer.py] => Average Accuracy (CNN): 41.99235294117646
+2025-02-11 22:58:50,798 [trainer.py] => All params: 469679
+2025-02-11 22:58:50,799 [trainer.py] => Trainable params: 5525
+2025-02-11 22:58:50,803 [fetril.py] => Learning on 85-90
+2025-02-11 22:58:50,804 [fetril.py] => All params: 470004
+2025-02-11 22:58:50,804 [fetril.py] => Trainable params: 5850
+2025-02-11 22:59:12,872 [fetril.py] => Task 17, Epoch 1/50 => Loss 3.145, Train_accy 24.51, Test_accy 22.10
+2025-02-11 22:59:13,772 [fetril.py] => Task 17, Epoch 2/50 => Loss 3.108, Train_accy 25.50
+2025-02-11 22:59:14,642 [fetril.py] => Task 17, Epoch 3/50 => Loss 3.093, Train_accy 25.86
+2025-02-11 22:59:15,517 [fetril.py] => Task 17, Epoch 4/50 => Loss 3.087, Train_accy 26.02
+2025-02-11 22:59:16,437 [fetril.py] => Task 17, Epoch 5/50 => Loss 3.083, Train_accy 26.22
+2025-02-11 22:59:18,034 [fetril.py] => Task 17, Epoch 6/50 => Loss 3.078, Train_accy 26.50, Test_accy 21.00
+2025-02-11 22:59:18,906 [fetril.py] => Task 17, Epoch 7/50 => Loss 3.077, Train_accy 26.34
+2025-02-11 22:59:19,788 [fetril.py] => Task 17, Epoch 8/50 => Loss 3.076, Train_accy 26.38
+2025-02-11 22:59:20,655 [fetril.py] => Task 17, Epoch 9/50 => Loss 3.074, Train_accy 26.42
+2025-02-11 22:59:21,542 [fetril.py] => Task 17, Epoch 10/50 => Loss 3.070, Train_accy 26.55
+2025-02-11 22:59:23,166 [fetril.py] => Task 17, Epoch 11/50 => Loss 3.070, Train_accy 26.66, Test_accy 21.12
+2025-02-11 22:59:24,043 [fetril.py] => Task 17, Epoch 12/50 => Loss 3.071, Train_accy 26.55
+2025-02-11 22:59:24,893 [fetril.py] => Task 17, Epoch 13/50 => Loss 3.067, Train_accy 26.92
+2025-02-11 22:59:25,767 [fetril.py] => Task 17, Epoch 14/50 => Loss 3.069, Train_accy 26.64
+2025-02-11 22:59:26,645 [fetril.py] => Task 17, Epoch 15/50 => Loss 3.066, Train_accy 26.93
+2025-02-11 22:59:28,234 [fetril.py] => Task 17, Epoch 16/50 => Loss 3.065, Train_accy 26.82, Test_accy 21.62
+2025-02-11 22:59:29,133 [fetril.py] => Task 17, Epoch 17/50 => Loss 3.061, Train_accy 27.19
+2025-02-11 22:59:29,984 [fetril.py] => Task 17, Epoch 18/50 => Loss 3.062, Train_accy 27.06
+2025-02-11 22:59:30,848 [fetril.py] => Task 17, Epoch 19/50 => Loss 3.061, Train_accy 27.20
+2025-02-11 22:59:31,722 [fetril.py] => Task 17, Epoch 20/50 => Loss 3.059, Train_accy 27.16
+2025-02-11 22:59:33,326 [fetril.py] => Task 17, Epoch 21/50 => Loss 3.058, Train_accy 27.27, Test_accy 22.27
+2025-02-11 22:59:34,175 [fetril.py] => Task 17, Epoch 22/50 => Loss 3.057, Train_accy 27.23
+2025-02-11 22:59:35,071 [fetril.py] => Task 17, Epoch 23/50 => Loss 3.054, Train_accy 27.36
+2025-02-11 22:59:35,984 [fetril.py] => Task 17, Epoch 24/50 => Loss 3.054, Train_accy 27.31
+2025-02-11 22:59:36,882 [fetril.py] => Task 17, Epoch 25/50 => Loss 3.051, Train_accy 27.44
+2025-02-11 22:59:38,475 [fetril.py] => Task 17, Epoch 26/50 => Loss 3.050, Train_accy 27.71, Test_accy 22.16
+2025-02-11 22:59:39,346 [fetril.py] => Task 17, Epoch 27/50 => Loss 3.048, Train_accy 27.81
+2025-02-11 22:59:40,240 [fetril.py] => Task 17, Epoch 28/50 => Loss 3.047, Train_accy 27.74
+2025-02-11 22:59:41,133 [fetril.py] => Task 17, Epoch 29/50 => Loss 3.045, Train_accy 27.92
+2025-02-11 22:59:42,018 [fetril.py] => Task 17, Epoch 30/50 => Loss 3.044, Train_accy 28.04
+2025-02-11 22:59:43,583 [fetril.py] => Task 17, Epoch 31/50 => Loss 3.043, Train_accy 28.13, Test_accy 23.09
+2025-02-11 22:59:44,455 [fetril.py] => Task 17, Epoch 32/50 => Loss 3.041, Train_accy 28.31
+2025-02-11 22:59:45,371 [fetril.py] => Task 17, Epoch 33/50 => Loss 3.040, Train_accy 28.31
+2025-02-11 22:59:46,231 [fetril.py] => Task 17, Epoch 34/50 => Loss 3.038, Train_accy 28.34
+2025-02-11 22:59:47,096 [fetril.py] => Task 17, Epoch 35/50 => Loss 3.037, Train_accy 28.60
+2025-02-11 22:59:48,728 [fetril.py] => Task 17, Epoch 36/50 => Loss 3.036, Train_accy 28.62, Test_accy 22.67
+2025-02-11 22:59:49,610 [fetril.py] => Task 17, Epoch 37/50 => Loss 3.034, Train_accy 28.69
+2025-02-11 22:59:50,524 [fetril.py] => Task 17, Epoch 38/50 => Loss 3.033, Train_accy 28.66
+2025-02-11 22:59:51,388 [fetril.py] => Task 17, Epoch 39/50 => Loss 3.032, Train_accy 28.84
+2025-02-11 22:59:52,267 [fetril.py] => Task 17, Epoch 40/50 => Loss 3.031, Train_accy 28.81
+2025-02-11 22:59:53,859 [fetril.py] => Task 17, Epoch 41/50 => Loss 3.030, Train_accy 28.95, Test_accy 23.04
+2025-02-11 22:59:54,750 [fetril.py] => Task 17, Epoch 42/50 => Loss 3.029, Train_accy 28.96
+2025-02-11 22:59:55,588 [fetril.py] => Task 17, Epoch 43/50 => Loss 3.029, Train_accy 29.11
+2025-02-11 22:59:56,476 [fetril.py] => Task 17, Epoch 44/50 => Loss 3.028, Train_accy 29.11
+2025-02-11 22:59:57,343 [fetril.py] => Task 17, Epoch 45/50 => Loss 3.027, Train_accy 29.18
+2025-02-11 22:59:58,961 [fetril.py] => Task 17, Epoch 46/50 => Loss 3.026, Train_accy 29.19, Test_accy 23.31
+2025-02-11 22:59:59,857 [fetril.py] => Task 17, Epoch 47/50 => Loss 3.026, Train_accy 29.25
+2025-02-11 23:00:00,773 [fetril.py] => Task 17, Epoch 48/50 => Loss 3.025, Train_accy 29.32
+2025-02-11 23:00:01,665 [fetril.py] => Task 17, Epoch 49/50 => Loss 3.025, Train_accy 29.36
+2025-02-11 23:00:02,534 [fetril.py] => Task 17, Epoch 50/50 => Loss 3.024, Train_accy 29.35
+2025-02-11 23:00:26,913 [fetril.py] => svm train: acc: 38.05
+2025-02-11 23:00:26,917 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6, 62.87, 52.5, 46.88, 42.93, 39.31, 36.33, 34.42, 35.0, 33.4, 30.72, 29.34, 29.07, 28.35, 27.49, 25.34, 25.36]
+2025-02-11 23:00:27,644 [trainer.py] => No NME accuracy.
+2025-02-11 23:00:27,644 [trainer.py] => CNN: {'total': 23.32, '00-09': 49.5, '10-19': 12.6, '20-29': 16.9, '30-39': 12.6, '40-49': 28.7, '50-59': 17.2, '60-69': 28.0, '70-79': 25.6, '80-89': 18.8, 'old': 24.2, 'new': 8.4}
+2025-02-11 23:00:27,644 [trainer.py] => CNN top1 curve: [97.2, 79.3, 63.47, 52.6, 46.12, 43.1, 38.26, 35.3, 33.44, 32.64, 32.51, 28.65, 27.65, 27.31, 26.65, 25.28, 24.39, 23.32]
+2025-02-11 23:00:27,644 [trainer.py] => CNN top5 curve: [100.0, 98.4, 92.27, 85.2, 78.68, 75.9, 71.54, 68.28, 64.51, 63.54, 63.02, 58.72, 57.03, 55.7, 54.27, 53.15, 51.38, 50.13]
+
+2025-02-11 23:00:27,644 [trainer.py] => Average Accuracy (CNN): 40.955
+2025-02-11 23:00:27,644 [trainer.py] => All params: 470004
+2025-02-11 23:00:27,645 [trainer.py] => Trainable params: 5850
+2025-02-11 23:00:27,650 [fetril.py] => Learning on 90-95
+2025-02-11 23:00:27,651 [fetril.py] => All params: 470329
+2025-02-11 23:00:27,652 [fetril.py] => Trainable params: 6175
+2025-02-11 23:00:50,485 [fetril.py] => Task 18, Epoch 1/50 => Loss 3.386, Train_accy 20.95, Test_accy 21.25
+2025-02-11 23:00:51,393 [fetril.py] => Task 18, Epoch 2/50 => Loss 3.347, Train_accy 21.83
+2025-02-11 23:00:52,303 [fetril.py] => Task 18, Epoch 3/50 => Loss 3.336, Train_accy 21.96
+2025-02-11 23:00:53,237 [fetril.py] => Task 18, Epoch 4/50 => Loss 3.331, Train_accy 22.20
+2025-02-11 23:00:54,127 [fetril.py] => Task 18, Epoch 5/50 => Loss 3.326, Train_accy 22.39
+2025-02-11 23:00:55,789 [fetril.py] => Task 18, Epoch 6/50 => Loss 3.322, Train_accy 22.52, Test_accy 20.42
+2025-02-11 23:00:56,677 [fetril.py] => Task 18, Epoch 7/50 => Loss 3.319, Train_accy 22.70
+2025-02-11 23:00:57,551 [fetril.py] => Task 18, Epoch 8/50 => Loss 3.317, Train_accy 22.53
+2025-02-11 23:00:58,382 [fetril.py] => Task 18, Epoch 9/50 => Loss 3.313, Train_accy 22.72
+2025-02-11 23:00:59,307 [fetril.py] => Task 18, Epoch 10/50 => Loss 3.312, Train_accy 22.97
+2025-02-11 23:01:00,973 [fetril.py] => Task 18, Epoch 11/50 => Loss 3.311, Train_accy 22.65, Test_accy 21.08
+2025-02-11 23:01:01,901 [fetril.py] => Task 18, Epoch 12/50 => Loss 3.311, Train_accy 22.62
+2025-02-11 23:01:02,826 [fetril.py] => Task 18, Epoch 13/50 => Loss 3.308, Train_accy 22.95
+2025-02-11 23:01:03,750 [fetril.py] => Task 18, Epoch 14/50 => Loss 3.310, Train_accy 23.04
+2025-02-11 23:01:04,671 [fetril.py] => Task 18, Epoch 15/50 => Loss 3.304, Train_accy 23.30
+2025-02-11 23:01:06,312 [fetril.py] => Task 18, Epoch 16/50 => Loss 3.303, Train_accy 23.08, Test_accy 20.42
+2025-02-11 23:01:07,230 [fetril.py] => Task 18, Epoch 17/50 => Loss 3.303, Train_accy 22.97
+2025-02-11 23:01:08,142 [fetril.py] => Task 18, Epoch 18/50 => Loss 3.301, Train_accy 23.32
+2025-02-11 23:01:09,081 [fetril.py] => Task 18, Epoch 19/50 => Loss 3.300, Train_accy 23.15
+2025-02-11 23:01:09,982 [fetril.py] => Task 18, Epoch 20/50 => Loss 3.298, Train_accy 23.29
+2025-02-11 23:01:11,595 [fetril.py] => Task 18, Epoch 21/50 => Loss 3.298, Train_accy 23.65, Test_accy 21.42
+2025-02-11 23:01:12,503 [fetril.py] => Task 18, Epoch 22/50 => Loss 3.298, Train_accy 23.44
+2025-02-11 23:01:13,399 [fetril.py] => Task 18, Epoch 23/50 => Loss 3.295, Train_accy 23.59
+2025-02-11 23:01:14,300 [fetril.py] => Task 18, Epoch 24/50 => Loss 3.291, Train_accy 23.75
+2025-02-11 23:01:15,158 [fetril.py] => Task 18, Epoch 25/50 => Loss 3.291, Train_accy 23.62
+2025-02-11 23:01:16,802 [fetril.py] => Task 18, Epoch 26/50 => Loss 3.286, Train_accy 23.95, Test_accy 21.88
+2025-02-11 23:01:17,702 [fetril.py] => Task 18, Epoch 27/50 => Loss 3.286, Train_accy 23.98
+2025-02-11 23:01:18,639 [fetril.py] => Task 18, Epoch 28/50 => Loss 3.283, Train_accy 24.07
+2025-02-11 23:01:19,526 [fetril.py] => Task 18, Epoch 29/50 => Loss 3.282, Train_accy 24.15
+2025-02-11 23:01:20,461 [fetril.py] => Task 18, Epoch 30/50 => Loss 3.279, Train_accy 24.30
+2025-02-11 23:01:22,086 [fetril.py] => Task 18, Epoch 31/50 => Loss 3.278, Train_accy 24.34, Test_accy 22.20
+2025-02-11 23:01:22,971 [fetril.py] => Task 18, Epoch 32/50 => Loss 3.277, Train_accy 24.54
+2025-02-11 23:01:23,895 [fetril.py] => Task 18, Epoch 33/50 => Loss 3.278, Train_accy 24.55
+2025-02-11 23:01:24,775 [fetril.py] => Task 18, Epoch 34/50 => Loss 3.273, Train_accy 24.62
+2025-02-11 23:01:25,656 [fetril.py] => Task 18, Epoch 35/50 => Loss 3.271, Train_accy 24.73
+2025-02-11 23:01:27,315 [fetril.py] => Task 18, Epoch 36/50 => Loss 3.269, Train_accy 24.72, Test_accy 22.51
+2025-02-11 23:01:28,192 [fetril.py] => Task 18, Epoch 37/50 => Loss 3.269, Train_accy 24.86
+2025-02-11 23:01:29,078 [fetril.py] => Task 18, Epoch 38/50 => Loss 3.266, Train_accy 25.18
+2025-02-11 23:01:29,992 [fetril.py] => Task 18, Epoch 39/50 => Loss 3.266, Train_accy 25.14
+2025-02-11 23:01:30,870 [fetril.py] => Task 18, Epoch 40/50 => Loss 3.266, Train_accy 25.24
+2025-02-11 23:01:32,463 [fetril.py] => Task 18, Epoch 41/50 => Loss 3.263, Train_accy 25.32, Test_accy 22.82
+2025-02-11 23:01:33,335 [fetril.py] => Task 18, Epoch 42/50 => Loss 3.262, Train_accy 25.25
+2025-02-11 23:01:34,261 [fetril.py] => Task 18, Epoch 43/50 => Loss 3.260, Train_accy 25.38
+2025-02-11 23:01:35,160 [fetril.py] => Task 18, Epoch 44/50 => Loss 3.261, Train_accy 25.33
+2025-02-11 23:01:36,095 [fetril.py] => Task 18, Epoch 45/50 => Loss 3.258, Train_accy 25.43
+2025-02-11 23:01:37,730 [fetril.py] => Task 18, Epoch 46/50 => Loss 3.259, Train_accy 25.50, Test_accy 22.81
+2025-02-11 23:01:38,623 [fetril.py] => Task 18, Epoch 47/50 => Loss 3.259, Train_accy 25.50
+2025-02-11 23:01:39,510 [fetril.py] => Task 18, Epoch 48/50 => Loss 3.256, Train_accy 25.57
+2025-02-11 23:01:40,392 [fetril.py] => Task 18, Epoch 49/50 => Loss 3.256, Train_accy 25.59
+2025-02-11 23:01:41,325 [fetril.py] => Task 18, Epoch 50/50 => Loss 3.257, Train_accy 25.62
+2025-02-11 23:02:11,039 [fetril.py] => svm train: acc: 35.91
+2025-02-11 23:02:11,045 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6, 62.87, 52.5, 46.88, 42.93, 39.31, 36.33, 34.42, 35.0, 33.4, 30.72, 29.34, 29.07, 28.35, 27.49, 25.34, 25.36, 23.15]
+2025-02-11 23:02:11,783 [trainer.py] => No NME accuracy.
+2025-02-11 23:02:11,783 [trainer.py] => CNN: {'total': 22.78, '00-09': 48.8, '10-19': 11.0, '20-29': 15.8, '30-39': 13.0, '40-49': 29.9, '50-59': 16.8, '60-69': 26.6, '70-79': 21.8, '80-89': 20.0, '90-99': 25.4, 'old': 22.63, 'new': 25.4}
+2025-02-11 23:02:11,783 [trainer.py] => CNN top1 curve: [97.2, 79.3, 63.47, 52.6, 46.12, 43.1, 38.26, 35.3, 33.44, 32.64, 32.51, 28.65, 27.65, 27.31, 26.65, 25.28, 24.39, 23.32, 22.78]
+2025-02-11 23:02:11,783 [trainer.py] => CNN top5 curve: [100.0, 98.4, 92.27, 85.2, 78.68, 75.9, 71.54, 68.28, 64.51, 63.54, 63.02, 58.72, 57.03, 55.7, 54.27, 53.15, 51.38, 50.13, 49.35]
+
+2025-02-11 23:02:11,783 [trainer.py] => Average Accuracy (CNN): 39.99842105263158
+2025-02-11 23:02:11,784 [trainer.py] => All params: 470329
+2025-02-11 23:02:11,784 [trainer.py] => Trainable params: 6175
+2025-02-11 23:02:11,788 [fetril.py] => Learning on 95-100
+2025-02-11 23:02:11,789 [fetril.py] => All params: 470654
+2025-02-11 23:02:11,789 [fetril.py] => Trainable params: 6500
+2025-02-11 23:02:35,919 [fetril.py] => Task 19, Epoch 1/50 => Loss 3.389, Train_accy 19.72, Test_accy 20.27
+2025-02-11 23:02:36,865 [fetril.py] => Task 19, Epoch 2/50 => Loss 3.345, Train_accy 20.60
+2025-02-11 23:02:37,789 [fetril.py] => Task 19, Epoch 3/50 => Loss 3.329, Train_accy 20.85
+2025-02-11 23:02:38,736 [fetril.py] => Task 19, Epoch 4/50 => Loss 3.320, Train_accy 21.30
+2025-02-11 23:02:39,686 [fetril.py] => Task 19, Epoch 5/50 => Loss 3.316, Train_accy 21.16
+2025-02-11 23:02:41,413 [fetril.py] => Task 19, Epoch 6/50 => Loss 3.315, Train_accy 21.30, Test_accy 20.59
+2025-02-11 23:02:42,323 [fetril.py] => Task 19, Epoch 7/50 => Loss 3.309, Train_accy 21.54
+2025-02-11 23:02:43,276 [fetril.py] => Task 19, Epoch 8/50 => Loss 3.309, Train_accy 21.45
+2025-02-11 23:02:44,203 [fetril.py] => Task 19, Epoch 9/50 => Loss 3.309, Train_accy 21.52
+2025-02-11 23:02:45,193 [fetril.py] => Task 19, Epoch 10/50 => Loss 3.307, Train_accy 21.29
+2025-02-11 23:02:46,905 [fetril.py] => Task 19, Epoch 11/50 => Loss 3.305, Train_accy 21.68, Test_accy 20.82
+2025-02-11 23:02:47,853 [fetril.py] => Task 19, Epoch 12/50 => Loss 3.304, Train_accy 21.73
+2025-02-11 23:02:48,810 [fetril.py] => Task 19, Epoch 13/50 => Loss 3.302, Train_accy 21.65
+2025-02-11 23:02:49,772 [fetril.py] => Task 19, Epoch 14/50 => Loss 3.303, Train_accy 21.67
+2025-02-11 23:02:50,714 [fetril.py] => Task 19, Epoch 15/50 => Loss 3.301, Train_accy 21.75
+2025-02-11 23:02:52,390 [fetril.py] => Task 19, Epoch 16/50 => Loss 3.298, Train_accy 21.80, Test_accy 20.87
+2025-02-11 23:02:53,335 [fetril.py] => Task 19, Epoch 17/50 => Loss 3.297, Train_accy 22.02
+2025-02-11 23:02:54,320 [fetril.py] => Task 19, Epoch 18/50 => Loss 3.296, Train_accy 21.91
+2025-02-11 23:02:55,299 [fetril.py] => Task 19, Epoch 19/50 => Loss 3.293, Train_accy 21.88
+2025-02-11 23:02:56,239 [fetril.py] => Task 19, Epoch 20/50 => Loss 3.295, Train_accy 21.98
+2025-02-11 23:02:57,936 [fetril.py] => Task 19, Epoch 21/50 => Loss 3.292, Train_accy 21.88, Test_accy 20.80
+2025-02-11 23:02:58,886 [fetril.py] => Task 19, Epoch 22/50 => Loss 3.291, Train_accy 22.11
+2025-02-11 23:02:59,871 [fetril.py] => Task 19, Epoch 23/50 => Loss 3.289, Train_accy 22.28
+2025-02-11 23:03:00,806 [fetril.py] => Task 19, Epoch 24/50 => Loss 3.288, Train_accy 22.24
+2025-02-11 23:03:01,734 [fetril.py] => Task 19, Epoch 25/50 => Loss 3.286, Train_accy 22.41
+2025-02-11 23:03:03,453 [fetril.py] => Task 19, Epoch 26/50 => Loss 3.284, Train_accy 22.36, Test_accy 21.81
+2025-02-11 23:03:04,394 [fetril.py] => Task 19, Epoch 27/50 => Loss 3.282, Train_accy 22.42
+2025-02-11 23:03:05,311 [fetril.py] => Task 19, Epoch 28/50 => Loss 3.282, Train_accy 22.52
+2025-02-11 23:03:06,319 [fetril.py] => Task 19, Epoch 29/50 => Loss 3.279, Train_accy 22.65
+2025-02-11 23:03:07,290 [fetril.py] => Task 19, Epoch 30/50 => Loss 3.278, Train_accy 22.59
+2025-02-11 23:03:08,978 [fetril.py] => Task 19, Epoch 31/50 => Loss 3.277, Train_accy 22.68, Test_accy 21.97
+2025-02-11 23:03:09,949 [fetril.py] => Task 19, Epoch 32/50 => Loss 3.275, Train_accy 22.89
+2025-02-11 23:03:10,888 [fetril.py] => Task 19, Epoch 33/50 => Loss 3.273, Train_accy 23.02
+2025-02-11 23:03:11,826 [fetril.py] => Task 19, Epoch 34/50 => Loss 3.272, Train_accy 22.90
+2025-02-11 23:03:12,789 [fetril.py] => Task 19, Epoch 35/50 => Loss 3.271, Train_accy 23.05
+2025-02-11 23:03:14,462 [fetril.py] => Task 19, Epoch 36/50 => Loss 3.269, Train_accy 23.19, Test_accy 21.94
+2025-02-11 23:03:15,402 [fetril.py] => Task 19, Epoch 37/50 => Loss 3.268, Train_accy 23.26
+2025-02-11 23:03:16,330 [fetril.py] => Task 19, Epoch 38/50 => Loss 3.267, Train_accy 23.22
+2025-02-11 23:03:17,264 [fetril.py] => Task 19, Epoch 39/50 => Loss 3.265, Train_accy 23.39
+2025-02-11 23:03:18,196 [fetril.py] => Task 19, Epoch 40/50 => Loss 3.264, Train_accy 23.38
+2025-02-11 23:03:19,927 [fetril.py] => Task 19, Epoch 41/50 => Loss 3.263, Train_accy 23.33, Test_accy 22.17
+2025-02-11 23:03:20,898 [fetril.py] => Task 19, Epoch 42/50 => Loss 3.262, Train_accy 23.40
+2025-02-11 23:03:21,884 [fetril.py] => Task 19, Epoch 43/50 => Loss 3.261, Train_accy 23.49
+2025-02-11 23:03:22,822 [fetril.py] => Task 19, Epoch 44/50 => Loss 3.260, Train_accy 23.58
+2025-02-11 23:03:23,739 [fetril.py] => Task 19, Epoch 45/50 => Loss 3.259, Train_accy 23.59
+2025-02-11 23:03:25,447 [fetril.py] => Task 19, Epoch 46/50 => Loss 3.259, Train_accy 23.63, Test_accy 22.26
+2025-02-11 23:03:26,384 [fetril.py] => Task 19, Epoch 47/50 => Loss 3.258, Train_accy 23.59
+2025-02-11 23:03:27,333 [fetril.py] => Task 19, Epoch 48/50 => Loss 3.257, Train_accy 23.66
+2025-02-11 23:03:28,302 [fetril.py] => Task 19, Epoch 49/50 => Loss 3.257, Train_accy 23.64
+2025-02-11 23:03:29,249 [fetril.py] => Task 19, Epoch 50/50 => Loss 3.257, Train_accy 23.67
+2025-02-11 23:04:01,636 [fetril.py] => svm train: acc: 32.65
+2025-02-11 23:04:01,641 [fetril.py] => svm evaluation: acc_list: [97.8, 79.6, 62.87, 52.5, 46.88, 42.93, 39.31, 36.33, 34.42, 35.0, 33.4, 30.72, 29.34, 29.07, 28.35, 27.49, 25.34, 25.36, 23.15, 23.97]
+2025-02-11 23:04:02,422 [trainer.py] => No NME accuracy.
+2025-02-11 23:04:02,423 [trainer.py] => CNN: {'total': 22.33, '00-09': 49.8, '10-19': 10.4, '20-29': 16.5, '30-39': 11.6, '40-49': 29.7, '50-59': 18.2, '60-69': 23.7, '70-79': 24.6, '80-89': 18.6, '90-99': 20.2, 'old': 22.47, 'new': 19.6}
+2025-02-11 23:04:02,423 [trainer.py] => CNN top1 curve: [97.2, 79.3, 63.47, 52.6, 46.12, 43.1, 38.26, 35.3, 33.44, 32.64, 32.51, 28.65, 27.65, 27.31, 26.65, 25.28, 24.39, 23.32, 22.78, 22.33]
+2025-02-11 23:04:02,423 [trainer.py] => CNN top5 curve: [100.0, 98.4, 92.27, 85.2, 78.68, 75.9, 71.54, 68.28, 64.51, 63.54, 63.02, 58.72, 57.03, 55.7, 54.27, 53.15, 51.38, 50.13, 49.35, 48.49]
+
+2025-02-11 23:04:02,423 [trainer.py] => Average Accuracy (CNN): 39.114999999999995
